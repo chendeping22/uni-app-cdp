@@ -5,22 +5,22 @@
     <tabbar slot="bottom" @on-index-change="onIndexChange" v-if="tabbarShow">
       <tabbar-item selected link="/home">
         <img slot="icon" src="/static/index.png">
-        <img slot="icon-active"  src="/static/indexOn.png">
+        <img slot="icon-active"  src="/static/tad_Home_pre.png">
         <span slot="label">首页</span>
       </tabbar-item>
       <tabbar-item  link="/school">
         <img slot="icon" src="/static/school.png">
-        <img slot="icon-active"  src="/static/schoolOn.png">
+        <img slot="icon-active"  src="/static/tad_school_pre.png">
         <span slot="label">学校</span>
       </tabbar-item>
       <tabbar-item  link="/find">
         <img slot="icon" src="/static/find.png">
-        <img slot="icon-active"  src="/static/findOn.png">
+        <img slot="icon-active"  src="/static/tad_found_pre.png">
         <span slot="label">发现</span>
       </tabbar-item>
       <tabbar-item  link="/mine">
         <img slot="icon" src="/static/my.png">
-        <img slot="icon-active"  src="/static/myOn.png">
+        <img slot="icon-active"  src="/static/tad_my_pre.png">
         <span slot="label">我的</span>
       </tabbar-item>
     </tabbar>
@@ -29,17 +29,15 @@
 
 <style lang="less" scoped> 
 .weui-tabbar:before{
-  border-top-color: #FBB03B;
+  border-top-color: #5EE2C6; 
+  box-shadow: 0px 0px 3px #5EE2C6;
 }
 </style>
-<script>
-import {Tabbar,TabbarItem} from 'vux'
+<script> 
 import {mapGetters, mapActions} from 'vuex'
 
 export default {
- components:{
-      Tabbar,
-      TabbarItem
+ components:{ 
     },
     data() {
       return {

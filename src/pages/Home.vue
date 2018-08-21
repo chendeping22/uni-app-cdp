@@ -1,99 +1,68 @@
 <template> 
   <div> 
-    <!-- 头部 -->
-    <div class="head"> 
-      <flexbox :gutter='9.5'>
-        <flexbox-item :span="16/125" >
-          <div class="head-left">
-            <!-- <x-icon type="ios-arrow-up" size="10"></x-icon>  -->
+    <!-- 头部 --> 
+      <c-head> 
+        <div slot="left" class="head-left">  
+          <router-link to='/home/location'>  
             <span>东莞</span>
             <x-icon type="ios-arrow-down" size="10"></x-icon>
-          </div>
-        </flexbox-item>
-        <flexbox-item :span="52/75">
-          <div class="search">
-            <i class="weui-icon-search"></i>
-            <input type="text" placeholder="搜索幼儿园/培训机构/俱乐部等"></div> 
-        </flexbox-item>
-        <flexbox-item :span="16/125"> 
-            <!-- @on-item-click="consoleIndex()" -->
-            <button-tab-item >
-              登陆
-            </button-tab-item>  
-      </flexbox-item>
-      </flexbox>  
-    </div>  
-    <!-- banner --> 
-    <div class="banner-nav">
-      <div class="ban"> 
-        <div class="ban_img1 rotate">
+          </router-link>
+        </div>
+        <c-search slot="center" placeholder="搜索幼儿园/培训机构/俱乐部等"></c-search>
+        <div slot='right'> 
+          <router-link to='/home/login'><p class='login'>登陆</p> </router-link>  
+        </div> 
+      </c-head> 
+      <c-swiper>
+        <div class="nav">
           <flexbox :gutter="0">
-            <flexbox-item :span="1/3">
-              <a class="a1">
-                <img src="/static/img_activity1.png"> 
+            <flexbox-item>
+              <a>
+                <div class="nav-icon">
+                    <img src="/static/home_btn_choose.png">
+                </div>
+                <p> 
+                  <span style="color:#6BB2FF;">择校</span>
+                </p>
               </a>
             </flexbox-item>
-            <flexbox-item :span="1/3">
-              <a class="a2 rotating mark">
-                <img src="/static/img_activity2.png"> 
-              </a>
+            <flexbox-item>
+              <router-link to='/home/fine'>
+                <div class="nav-icon"> 
+                    <img src="/static/home_btn_institutions.png">
+                </div>
+                <p>
+                  <span style="color:#FABA7A;">优秀机构</span></p>
+              </router-link>
             </flexbox-item>
-            <flexbox-item :span="1/3">
-              <a class="a3">
-                <img src="/static/img_activity3.png"> 
-              </a>
-            </flexbox-item> 
-          </flexbox> 
-       </div>   
-      </div> 
-      <div class="nav">
-        <flexbox :gutter="0">
-          <flexbox-item>
-            <a>
-               <div class="nav-icon">
-                  <img src="/static/home_btn_choose.png">
-              </div>
-              <p> 
-                <span style="color:#6BB2FF;">择校</span>
-              </p>
-            </a>
-          </flexbox-item>
-          <flexbox-item>
-             <a>
-               <div class="nav-icon"> 
-                  <img src="/static/home_btn_institutions.png">
-               </div>
-              <p>
-                <span style="color:#FABA7A;">优秀机构</span></p>
-            </a>
-          </flexbox-item>
-          <flexbox-item>
-               <a> 
-               <div class="nav-icon"> 
-                 <img src="/static/home_btn_activity.png">
+            <flexbox-item>
+              <router-link to='/home/activity'>
+                <div class="nav-icon"> 
+                  <img src="/static/home_btn_activity.png">
+                  </div> 
+                  <p ><span style="color:#EE8A8B;">亲子活动</span></p>
+              </router-link>
+            </flexbox-item>
+            <flexbox-item>
+              <a>
+                <div class="nav-icon"> 
+                  <img src="/static/home_btn_daily.png">
                 </div> 
-                <p ><span style="color:#EE8A8B;">亲子活动</span></p>
-            </a>
-          </flexbox-item>
-          <flexbox-item>
-            <a>
-               <div class="nav-icon"> 
-                <img src="/static/home_btn_daily.png">
-              </div> 
-              <p><span style="color:#FDAA7D;">宝宝日常</span></p>
-            </a>
-          </flexbox-item>
-          <flexbox-item>
-             <a>
-               <div class="nav-icon"> 
-                <img  src="/static/home_btn_integral.png">
-              </div> 
-              <p><span style="color:#FDAA7D;">积分入学</span></p>
-            </a>
-          </flexbox-item>
-        </flexbox>
-      </div>  
-    </div>
+                <p><span style="color:#FDAA7D;">宝宝日常</span></p>
+              </a>
+            </flexbox-item>
+            <flexbox-item>
+              <a>
+                <div class="nav-icon"> 
+                  <img  src="/static/home_btn_integral.png">
+                </div> 
+                <p><span style="color:#FDAA7D;">积分入学</span></p>
+              </a>
+            </flexbox-item>
+          </flexbox>
+        </div>  
+      </c-swiper>
+       
     <div class="popular"> 
       <flexbox>
         <flexbox-item>
@@ -101,10 +70,9 @@
         </flexbox-item>
         <flexbox-item>
           <div class="more">
-            <a>
-              <span>更多</span> 
-              <x-icon type="ios-arrow-forward" size="10"></x-icon>
-            </a>
+            <router-link to='/home/popular'>
+              <span>更多</span><x-icon type="ios-arrow-forward" size="12"></x-icon> 
+            </router-link>
           </div>
         </flexbox-item> 
       </flexbox>
@@ -177,13 +145,7 @@
     </div>
   </div> 
 </template> 
-<style lang="less" scoped>
-.flex-demo {
-  text-align: center; /*文本居中显示*/
-  color: #eee;
-  background-color: #0077ff;
-  border-radius: 6px; /*按钮的圆角弧度*/
-}
+<style lang="less" scoped> 
 .head-left {
   padding-right: 10px;
   // width: 29px;
@@ -211,7 +173,7 @@
 .vux-button-group {
   border: none;
 }
-.head-left span {
+.head-left span,.login {
   color: #fff;
   font-size: 12px;
 }
@@ -219,74 +181,30 @@
   position: absolute;
   top: 0;
 }
-.search {
-  position: relative;
-}
-.search .weui-icon-search {
-  position: absolute;
-  left: 10px;
-  top: 9;
-  line-height: 29px;
-  font-size: 4px;
-}
-input[type="text"] {
-  padding-left: 25px;
-  width: 100%;
-  height: 29px;
-  border: none;
-  border-radius: 5px;
-  background: #f6f5f5;
-  color: #666666;
-}
-input::placeholder {
-  color: #ccc;
-}
-.banner-nav {
-  background: #fff;
-  padding-top: 0.9375rem;
-  padding-bottom: 0.6875rem;
-}
-// 轮播样式
-.ban {
-  width: 100%;
-  height: 10rem;
-  overflow: hidden;
-  position: relative;
-  background: #fff;
-  padding-bottom: 0.625rem;
-}
-.rotate {
-  width: 260%;
-  position: absolute;
-  left: -80%;
-}
-.rotate a {
-  width: 100%;
-  height: 9.375rem;
-  display: block;
-  float: left;
-  background: #f4f4f2;
-  border-radius: 0.2rem;
-  box-shadow: 0px 1px 3px #f4eb8b;
-  transform: scale(0.93);
-  -webkit-transform: scale(0.93);
-  -moz-transform: scale(0.93);
-  -o-transform: scale(0.93);
-  -ms-transform: scale(0.93);
-}
-.rotate a img {
-  width: 100%;
-  height: 9.375rem;
-  display: block;
-  border-radius: 0.2rem;
-}
-.rotate .rotating {
-  transform: scale(1);
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -o-transform: scale(1);
-  -ms-transform: scale(1);
-}
+// .search {
+//   position: relative;
+// }
+// .search .weui-icon-search {
+//   position: absolute;
+//   left: 10px;
+//   top: 9;
+//   line-height: 29px;
+//   font-size: 4px;
+// }
+// input[type="text"] {
+//   padding-left: 25px;
+//   width: 100%;
+//   height: 29px;
+//   border: none;
+//   border-radius: 5px;
+//   background: #f6f5f5;
+//   color: #666666;
+// }
+// input::placeholder {
+//   color: #ccc;
+// }
+
+ 
 .nav {
   padding: 0 15px;
 }
@@ -318,7 +236,7 @@ input::placeholder {
 }
 .popular:before {
   content: "";
-  background: #fbb03b;
+  background: #5EE2C6;
   width: 5px;
   height: 44px;
   position: absolute;
@@ -332,12 +250,17 @@ input::placeholder {
 }
 .more {
   text-align: right;
-  color: #cccccc;
   font-size: 12px;
   line-height: 44px;
 }
 .more .vux-x-icon {
-  fill: #cccccc;
+  fill: #cccccc;  
+  vertical-align: middle;
+} 
+.more a{ 
+  color: #cccccc;
+  vertical-align: middle;
+  text-align: right;
 }
 .popular-content {
   background: #fff;

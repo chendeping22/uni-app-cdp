@@ -1,0 +1,19 @@
+$txtDefaultColor: rgba(0, 0, 0, 0.88);
+$textSecondaryColor: rgba(0, 0, 0, 0.45);
+$fillDefaultColor: rgba(0, 0, 0, 0.04);
+$colorSuccessBase: #52c41a;
+$colorPrimaryBase: #1677ff;
+$colorErrorBase: #ff4d4f;
+$colorFillBase: rgba(0, 0, 0, 0.15);
+
+.color-primary-bg {
+  background-color: $colorPrimaryBase;
+}
+
+.color-success-bg {
+  background-color: $colorSuccessBase;
+}
+
+.color-unFinish-bg {
+  background-color: $colorFillBase;
+}

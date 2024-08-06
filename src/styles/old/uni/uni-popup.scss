@@ -1,0 +1,39 @@
+.uni-popup {
+  view.uni-popup-dialog {
+    border-radius: $ui-radius-xl;
+    min-width: 540rpx;
+    width: unset;
+
+    .uni-dialog-title {
+      .uni-dialog-title-text {
+        font-family: PingFangSC-Medium;
+        font-size: $ui-font-size-xt;
+        color: $ui-color-base;
+      }
+    }
+
+    .uni-dialog-content {
+      .uni-dialog-content-text {
+        font-family: PingFangSC-Regular;
+        font-size: $ui-font-size-title;
+        color: $ui-color-base;
+      }
+    }
+
+    .uni-dialog-button-group {
+      .uni-dialog-button {
+        height: 95rpx;
+
+        .uni-dialog-button-text {
+          font-family: PingFangSC-Medium;
+          font-size: $ui-font-size-xt;
+          color: $ui-color-base;
+        }
+
+        .uni-button-color {
+          color: $ui-color-primary;
+        }
+      }
+    }
+  }
+}

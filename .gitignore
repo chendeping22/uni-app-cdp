@@ -1,16 +1,26 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
 .DS_Store
-node_modules/
-dist/
-npm-debug.log
-yarn-error.log
-/test/unit/coverage/
-/test/e2e/reports/
-selenium-debug.log
+dist
+*.local
+
+env/
+src/pages.json
+src/manifest.json
+src/styles/theme/css-theme.scss
 
 # Editor directories and files
 .idea
-.vscode
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
+*.sw?

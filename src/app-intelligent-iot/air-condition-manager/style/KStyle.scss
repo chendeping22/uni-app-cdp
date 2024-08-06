@@ -1,0 +1,75 @@
+.k-f {
+  display: flex;
+  flex-direction: row;
+}
+
+.k-f-c {
+  display: flex;
+  flex-direction: column;
+}
+
+.k-f-center {
+  @extend .k-f;
+  align-items: center;
+}
+
+.k-f-c-center {
+  @extend .k-f-c;
+  align-items: center;
+}
+
+.k-f-1 {
+  // width: 0;
+  flex: 1;
+}
+
+.k-f-2 {
+  flex: 2;
+}
+
+.k-w-100p {
+  width: 100%;
+}
+
+.k-h-100p {
+  height: 100%;
+}
+
+@for $i from 0 through 200 {
+
+  @if $i % 2==0 or $i % 5==0 {
+
+    // .k-w-#{$i} {
+    //   width: $i + rpx;
+    // }
+
+    .k-h-#{$i} {
+      height: $i + rpx;
+    }
+  }
+}
+
+@for $i from 0 through 80 {
+
+  @if $i % 2==0 or $i % 5==0 {
+
+    .k-m-#{$i} {
+      margin: $i + rpx;
+    }
+
+    .k-p-#{$i} {
+      padding: $i + rpx;
+    }
+
+    @each $short, $long in l left, t top, r right, b bottom {
+
+      .k-m-#{$short}-#{$i} {
+        margin-#{$long}: $i + rpx;
+      }
+
+      .k-p-#{$short}-#{$i} {
+        padding-#{$long}: $i + rpx;
+      }
+    }
+  }
+}

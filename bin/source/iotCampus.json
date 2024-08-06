@@ -1,0 +1,84 @@
+{
+  "appName": "麦塔校园",
+  "appVersion": "0.1.0.2",
+  "dcloudAppId": "__UNI__5DDCF69",
+  "appOfficiaUrl": "https://imp.leedarson.com/app/",
+  "uiColorPrimary": "#1677FF",
+  "uiColorPagePrimary": "#f5f5f5",
+  "env": {
+    "dev": {
+      "impUrlOld": "https://dev-imp.lexikos.com/imp2/h5",
+      "eduUrlOld": "https://dev-imp.lexikos.com/imp2-edu/h5",
+      "stuUrlOld": "https://dev-imp.lexikos.com/imp2-stu/h5",
+      "impUrlNew": "https://dev-imp.lexikos.com",
+      "lowCodeUrl": "https://dev-lowcode.lexikos.com/h5",
+      "trainingUrl": "https://dev-imp.lexikos.com/voc-h5",
+      "wxAppId": "wx15ae7cdc73c1f2a2",
+      "wxId": "gh_1c31cde51b0e",
+      "wxWebUrl": "http://imp-app.leedarson.com",
+      "followGuideSrc": "https://mp.weixin.qq.com/s?__biz=Mzg4ODcyNzQyMQ==&mid=2247483658&idx=1&sn=dffa339b7c168f76911ebd1d8982208a&chksm=cff7f318f8807a0ec0b3e7d5d731c7da3d7d4e3b8bb0f970f018ace63ade428b2fb5785393c0#rd"
+    },
+    "test": {
+      "impUrlOld": "https://test-imp.lexikos.com/imp2/h5",
+      "eduUrlOld": "https://test-imp.lexikos.com/imp2-edu/h5",
+      "stuUrlOld": "https://test-imp.lexikos.com/imp2-stu/h5",
+      "impUrlNew": "https://testimp.leedarson.com:12001",
+      "lowCodeUrl": "https://test-lowcode.lexikos.com/h5",
+      "trainingUrl": "https://test-imp.lexikos.com/voc-h5",
+      "wxAppId": "wxc5fa9b44a1c5c9e2",
+      "wxId": "gh_1e1e92a930dc",
+      "wxWebUrl": "http://imp-app.leedarson.com",
+      "followGuideSrc": "https://mp.weixin.qq.com/s?__biz=Mzg4ODcyNzQyMQ==&mid=2247483658&idx=1&sn=dffa339b7c168f76911ebd1d8982208a&chksm=cff7f318f8807a0ec0b3e7d5d731c7da3d7d4e3b8bb0f970f018ace63ade428b2fb5785393c0#rd"
+    },
+    "test2": {
+      "impUrlOld": "https://test2-imp.lexikos.com/imp2/h5",
+      "eduUrlOld": "https://test2-imp.lexikos.com/imp2-edu/h5",
+      "stuUrlOld": "https://test2-imp.lexikos.com/imp2-stu/h5",
+      "impUrlNew": "https://testimp.leedarson.com:18001",
+      "lowCodeUrl": "https://test2-lowcode.lexikos.com/h5",
+      "trainingUrl": "https://test2-imp.lexikos.com/voc-h5",
+      "wxAppId": "wxa40e3bf3ecafd061",
+      "wxId": "gh_6ad259af7b08",
+      "wxWebUrl": "http://imp-app.leedarson.com",
+      "followGuideSrc": "https://mp.weixin.qq.com/s?__biz=Mzg4ODcyNzQyMQ==&mid=2247483658&idx=1&sn=dffa339b7c168f76911ebd1d8982208a&chksm=cff7f318f8807a0ec0b3e7d5d731c7da3d7d4e3b8bb0f970f018ace63ade428b2fb5785393c0#rd"
+    },
+    "test3": {
+      "impUrlOld": "https://test3-imp.lexikos.com/imp2/h5",
+      "eduUrlOld": "https://test3-imp.lexikos.com/imp2-edu/h5",
+      "stuUrlOld": "https://test3-imp.lexikos.com/imp2-stu/h5",
+      "impUrlNew": "https://test3-imp.lexikos.com",
+      "lowCodeUrl": "https://test3-lowcode.lexikos.com/h5",
+      "trainingUrl": "https://test3-imp.lexikos.com/voc-h5",
+      "wxAppId": "wxa40e3bf3ecafd061",
+      "wxId": "gh_6ad259af7b08",
+      "wxWebUrl": "http://imp-app.leedarson.com",
+      "followGuideSrc": "https://mp.weixin.qq.com/s?__biz=Mzg4ODcyNzQyMQ==&mid=2247483658&idx=1&sn=dffa339b7c168f76911ebd1d8982208a&chksm=cff7f318f8807a0ec0b3e7d5d731c7da3d7d4e3b8bb0f970f018ace63ade428b2fb5785393c0#rd"
+    },
+    "pre": {
+      "impUrlOld": "https://preimp.leedarson.com/imp2/h5",
+      "eduUrlOld": "https://preimp.leedarson.com/imp2-edu/h5",
+      "stuUrlOld": "https://preimp.leedarson.com/imp2-stu/h5",
+      "impUrlNew": "https://preimp.leedarson.com",
+      "lowCodeUrl": "https://prelowcode.leedarson.com/h5",
+      "trainingUrl": "https://preimp.leedarson.com/voc-h5",
+      "wxAppId": "wxc05dae26e85a42e1",
+      "wxId": "gh_a5111da06ba0",
+      "wxWebUrl": "http://imp-app.leedarson.com",
+      "followGuideSrc": "https://mp.weixin.qq.com/s?__biz=Mzg4ODcyNzQyMQ==&mid=2247483658&idx=1&sn=dffa339b7c168f76911ebd1d8982208a&chksm=cff7f318f8807a0ec0b3e7d5d731c7da3d7d4e3b8bb0f970f018ace63ade428b2fb5785393c0#rd"
+    },
+    "prod": {
+      "impUrlOld": "https://imp.leedarson.com/imp2/h5",
+      "eduUrlOld": "https://imp.leedarson.com/imp2-edu/h5",
+      "stuUrlOld": "https://imp.leedarson.com/imp2-stu/h5",
+      "impUrlNew": "https://imp.leedarson.com",
+      "lowCodeUrl": "https://lowcode.leedarson.com/h5",
+      "trainingUrl": "https://imp.leedarson.com/voc-h5",
+      "wxAppId": "wx5e4fe3e320887e02",
+      "wxId": "gh_4726403311b7",
+      "wxWebUrl": "http://imp-app.leedarson.com",
+      "followGuideSrc": "https://mp.weixin.qq.com/s?__biz=MzkyNzMwNTMyMw==&mid=2247483678&idx=1&sn=13973a9ff699901561524c0c4d07d8f2&chksm=c22b5a1af55cd30c4bd4ff20a5b378e81a90544ca1ae9c9d345e4f6625360633dd1117abd00a#rd"
+    }
+  },
+  "wxShareAppId": "wxb56afd09f54c8f2f",
+  "wxSharUniversalLinks": "https://imp.leedarson.com/app/"
+}

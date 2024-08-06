@@ -1,0 +1,32 @@
+@use 'sass:meta';
+@use 'sass:math';
+
+/** remove unit from variable */
+@function strip-unit($number) {
+  @if meta.type-of($number) == 'number' and not math.is-unitless($number) {
+    @return math.div($number, ($number * 0 + 1));
+  }
+  @return $number;
+}
+
+@function px2rpx($px) {
+  $unit: if(meta.type-of($px) == 'number', math.unit($px), false);
+  @if $unit {
+    @if math.is-unitless($px) {
+      @return calc($px * 2) + 0rpx;
+    } @else if $unit == px {
+      @return calc($px / 1px * 2) + 0rpx;
+    }
+  }
+  @return $px;
+}
+
+// Tint a color: mix a color with white
+@function tint-color($color, $weight) {
+  @return mix(white, $color, $weight);
+}
+
+// Shade a color: mix a color with black
+@function shade-color($color, $weight) {
+  @return mix(black, $color, $weight);
+}

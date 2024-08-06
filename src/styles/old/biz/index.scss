@@ -1,0 +1,17 @@
+@import './imp-top.scss';
+@import './preview-image.scss';
+@import './student-evaluation.scss';
+@import './animation.scss';
+@import './page.scss';
+@import './evaluation.scss';
+@import './class-cloud-guardian.scss';
+@import './recording-broadcasting.scss';
+@import './disinfection.scss';
+@import './vision-input.scss';
+@import './healthday.scss';
+@import './intelligent-recording.scss';
+
+/** margin-top适配: 修复多行文字因行高引起的间距过大的问题 */
+.mt-adjust-line-height {
+  margin-top: -8rpx;
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/App/科普宣传</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#57A9FB" offset="0%"></stop>
+            <stop stop-color="#3491FA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.1259252%" y1="32.0652508%" x2="81.9505701%" y2="73.2193325%" id="linearGradient-2">
+            <stop stop-color="#9FD4FD" offset="0%"></stop>
+            <stop stop-color="#57A9FB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-2.48949813e-15%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#E8F7FF" offset="0%"></stop>
+            <stop stop-color="#C3E7FE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#3491FA" offset="0%"></stop>
+            <stop stop-color="#57A9FB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#3491FA" offset="0%"></stop>
+            <stop stop-color="#57A9FB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#3491FA" offset="0%"></stop>
+            <stop stop-color="#57A9FB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icons/App/科普宣传" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="资源管理" fill-rule="nonzero">
+            <path d="M18,0 L46,0 C55.9411255,0 64,8.0588745 64,18 L64,46 C64,55.9411255 55.9411255,64 46,64 L18,64 C8.0588745,64 0,55.9411255 0,46 L0,18 C0,8.0588745 8.0588745,0 18,0 Z" id="矩形" fill="url(#linearGradient-1)"></path>
+            <g id="编组" transform="translate(8.510282, 9.943761)">
+                <g id="path-6-link">
+                    <rect id="path-6" fill="url(#linearGradient-2)" transform="translate(21.489718, 19.056239) rotate(-10.000000) translate(-21.489718, -19.056239) " x="2.48971815" y="3.05623942" width="38" height="32" rx="4"></rect>
+                    <rect id="path-6" fill="url(#linearGradient-3)" x="5.48971815" y="9.05623942" width="38" height="32" rx="4"></rect>
+                </g>
+                <rect id="矩形" fill="url(#linearGradient-4)" x="25.4897181" y="14.0562394" width="13" height="15" rx="2"></rect>
+                <path d="M11.9897181,14.0562394 L19.9897181,14.0562394 C20.8181453,14.0562394 21.4897181,14.7278123 21.4897181,15.5562394 C21.4897181,16.3846665 20.8181453,17.0562394 19.9897181,17.0562394 L11.9897181,17.0562394 C11.161291,17.0562394 10.4897181,16.3846665 10.4897181,15.5562394 C10.4897181,14.7278123 11.161291,14.0562394 11.9897181,14.0562394 Z" id="矩形备份" fill="url(#linearGradient-5)"></path>
+                <path d="M11.9897181,20.0562394 L19.9897181,20.0562394 C20.8181453,20.0562394 21.4897181,20.7278123 21.4897181,21.5562394 C21.4897181,22.3846665 20.8181453,23.0562394 19.9897181,23.0562394 L11.9897181,23.0562394 C11.161291,23.0562394 10.4897181,22.3846665 10.4897181,21.5562394 C10.4897181,20.7278123 11.161291,20.0562394 11.9897181,20.0562394 Z" id="矩形备份" fill="url(#linearGradient-5)"></path>
+                <path d="M11.9897181,26.0562394 L19.9897181,26.0562394 C20.8181453,26.0562394 21.4897181,26.7278123 21.4897181,27.5562394 C21.4897181,28.3846665 20.8181453,29.0562394 19.9897181,29.0562394 L11.9897181,29.0562394 C11.161291,29.0562394 10.4897181,28.3846665 10.4897181,27.5562394 C10.4897181,26.7278123 11.161291,26.0562394 11.9897181,26.0562394 Z" id="矩形备份" fill="url(#linearGradient-5)"></path>
+                <path d="M12.0169909,33.0562394 L36.9624454,33.0562394 C37.8059349,33.0562394 38.4897181,33.7278123 38.4897181,34.5562394 C38.4897181,35.3846665 37.8059349,36.0562394 36.9624454,36.0562394 L12.0169909,36.0562394 C11.1735014,36.0562394 10.4897181,35.3846665 10.4897181,34.5562394 C10.4897181,33.7278123 11.1735014,33.0562394 12.0169909,33.0562394 Z" id="矩形备份" fill="url(#linearGradient-6)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

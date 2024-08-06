@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="MobileOptimized" content="320" />
+    <title>网络错误</title>
+    <style>
+      * {
+        -webkit-user-select: none;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: PingFang SC, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+          Hiragino Sans GB, Microsoft YaHei UI, Microsoft YaHei, Source Han Sans CN, sans-serif,
+          Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+        background: #f5f5f5;
+      }
+      .container {
+        padding-top: 20%;
+        text-align: center;
+      }
+      .container img {
+        display: block;
+        width: 108px;
+        height: 108px;
+        margin: 0 auto;
+      }
+      .container h2 {
+        margin-top: 16px;
+        margin-bottom: 8px;
+        color: rgba(0, 0, 0, 0.88);
+        line-height: 1.3;
+        font-size: 20px;
+        font-weight: 500;
+      }
+      .container p {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        color: rgba(0, 0, 0, 0.45);
+        line-height: 1.375;
+        font-size: 16px;
+        font-weight: 400;
+      }
+      .container .button {
+        background-color: #1677ff;
+        color: #fff;
+        border: 0;
+        margin-top: 24px;
+        padding: 10px 16px;
+        border-radius: 8px;
+        line-height: 1.3;
+        font-size: 15px;
+        font-weight: 500;
+      }
+      .container .button:active {
+        background-color: #0958d9;
+      }
+    </style>
+    <script
+      type="text/javascript"
+      src="https://hellouniapp.dcloud.net.cn/hybrid/html/uni.webview.1.5.5.js"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDkgMTA4IiBjbGFzcz0iZGVzaWduLWljb25mb250Ij4KICA8ZyBjbGlwLXBhdGg9InVybCgjaWVxOXB3cTdmX19jbGlwMF8yMTE0XzE0NjM1KSI+CiAgICA8cGF0aCBkPSJNMC41IDU0QzAuNSAyNC4xNzY2IDI0LjY3NjYgMCA1NC41IDBDODQuMzIzNCAwIDEwOC41IDI0LjE3NjYgMTA4LjUgNTRDMTA4LjUgODMuODIzNCA4NC4zMjM0IDEwOCA1NC41IDEwOEMyNC42NzY2IDEwOCAwLjUgODMuODIzNCAwLjUgNTRaIiBmaWxsPSJ1cmwoI2llcTlwd3E3Zl9fcGFpbnQwX2xpbmVhcl8yMTE0XzE0NjM1KSIvPgogICAgPHBhdGggZD0iTTIuOTQ1OTkgNTkuOTEzNEw1Mi4xIDExMi4zNDRDNTMuMzk5NyAxMTMuNzMxIDU1LjYwMDIgMTEzLjczMSA1Ni44OTk4IDExMi4zNDRMMTA2LjA1NCA1OS45MTM0QzEwNy4yMTUgNTguNjc0NyAxMDcuMjQ3IDU2Ljc0NjUgMTA2LjA2NSA1NS41Mjc3Qzc4Ljg3MDMgMjcuNDkwNyAzMC4xMjk2IDI3LjQ5MDggMi45MzUxIDU1LjUyNzdDMS43NTI5MiA1Ni43NDY1IDEuNzg0NjkgNTguNjc0NyAyLjk0NTk5IDU5LjkxMzRaIiBmaWxsPSJ1cmwoI2llcTlwd3E3Zl9fcGFpbnQxX2xpbmVhcl8yMTE0XzE0NjM1KSIvPgogICAgPHBhdGggZD0iTTcwLjkzNSAzNy41NjUyQzcwLjkzNSAyOC40ODg1IDYzLjU3NjkgMjEuMTMwNCA1NC41MDAyIDIxLjEzMDRDNDUuNDIzNSAyMS4xMzA0IDM4LjA2NTQgMjguNDg4NSAzOC4wNjU0IDM3LjU2NTJDMzguMDY1NCA0MC4xNTg1IDQwLjE2NzcgNDIuMjYwOCA0Mi43NjExIDQyLjI2MDhDNDUuMzU0NCA0Mi4yNjA4IDQ3LjQ1NjcgNDAuMTU4NSA0Ny40NTY3IDM3LjU2NTJMNDcuNDY4NyAzNy4xNTEzQzQ3LjY4MjkgMzMuNDUzOSA1MC43NDkyIDMwLjUyMTcgNTQuNTAwMiAzMC41MjE3QzU4LjM5MDIgMzAuNTIxNyA2MS41NDM3IDMzLjY3NTIgNjEuNTQzNyAzNy41NjUyQzYxLjU0MzcgNDEuNDU1MSA1OC4zOTAyIDQ0LjYwODYgNTQuNTAwMiA0NC42MDg2TDU0LjE0OTggNDQuNjIxNUM1MS43MjAxIDQ0LjgwMDggNDkuODA0NiA0Ni44Mjg4IDQ5LjgwNDYgNDkuMzA0M1Y1OC4zNTNMNDkuODE3NCA1OC43MDM0QzQ5Ljk5NjcgNjEuMTMzMSA1Mi4wMjQ4IDYzLjA0ODcgNTQuNTAwMiA2My4wNDg3TDU0Ljg1MDcgNjMuMDM1OEM1Ny4yODAzIDYyLjg1NjUgNTkuMTk1OSA2MC44Mjg1IDU5LjE5NTkgNTguMzUzVjUzLjMxNDRMNTkuMzg3NCA1My4yNjExQzY2LjA3NzUgNTEuMTgwMiA3MC45MzUgNDQuOTM5OSA3MC45MzUgMzcuNTY1MloiIGZpbGw9InVybCgjaWVxOXB3cTdmX19wYWludDJfbGluZWFyXzIxMTRfMTQ2MzUpIi8+CiAgICA8cGF0aCBkPSJNNTkuMzkxMSA3MS4wNzA0QzU5LjM5MTEgNzMuNzcxOCA1Ny4yMDEyIDc1Ljk2MTcgNTQuNDk5OCA3NS45NjE3QzUxLjc5ODUgNzUuOTYxNyA0OS42MDg1IDczLjc3MTggNDkuNjA4NSA3MS4wNzA0QzQ5LjYwODUgNjguMzY5MSA1MS43OTg1IDY2LjE3OTEgNTQuNDk5OCA2Ni4xNzkxQzU3LjIwMTIgNjYuMTc5MSA1OS4zOTExIDY4LjM2OTEgNTkuMzkxMSA3MS4wNzA0WiIgZmlsbD0idXJsKCNpZXE5cHdxN2ZfX3BhaW50M19saW5lYXJfMjExNF8xNDYzNSkiLz4KICAgIDxwYXRoIGQ9Ik00MC4xMDQxIDk4LjY4MDlDMzkuODUxIDk4LjkzNDMgMzkuODQ1IDk5LjM0MjggNDAuMDkwNSA5OS42MDM0TDU0LjAxNzUgMTE0LjM5MkM1NC4yNzkxIDExNC42NjkgNTQuNzIwNyAxMTQuNjY5IDU0Ljk4MjMgMTE0LjM5Mkw2OC45MjE3IDk5LjU5MDNDNjkuMTYyMiA5OS4zMzQ5IDY5LjE2MTggOTguOTM0NSA2OC45MTM2IDk4LjY4NjdDNjEuMjI4MSA5MS4wMTIgNDguOTQ3NyA5MC43MTExIDQwLjk5OTkgOTcuNzg0TDQwLjEwNDEgOTguNjgwOVoiIGZpbGw9InVybCgjaWVxOXB3cTdmX19wYWludDRfbGluZWFyXzIxMTRfMTQ2MzUpIi8+CiAgPC9nPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJpZXE5cHdxN2ZfX3BhaW50MF9saW5lYXJfMjExNF8xNDYzNSIgeDE9IjU0LjUiIHkxPSIwIiB4Mj0iNTQuNSIgeTI9IjEwOCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjRDdEQ0UyIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0YyRjRGNSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iaWVxOXB3cTdmX19wYWludDFfbGluZWFyXzIxMTRfMTQ2MzUiIHgxPSIzMS40ODMzIiB5MT0iMTM2LjUxNyIgeDI9IjMxLjQ4MzMiIHkyPSI1OS42MjgxIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNCQkQ3RkYiIHN0b3Atb3BhY2l0eT0iLjg2Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iaWVxOXB3cTdmX19wYWludDJfbGluZWFyXzIxMTRfMTQ2MzUiIHgxPSI1NC41MDAyIiB5MT0iMjEuMTMwNCIgeDI9IjU0LjUwMDIiIHkyPSI3NS45NjE3IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM5MUJGRkYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjQjdENUZGIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJpZXE5cHdxN2ZfX3BhaW50M19saW5lYXJfMjExNF8xNDYzNSIgeDE9IjU0LjUwMDIiIHkxPSIyMS4xMzA0IiB4Mj0iNTQuNTAwMiIgeTI9Ijc1Ljk2MTciIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzkxQkZGRiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNCN0Q1RkYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImllcTlwd3E3Zl9fcGFpbnQ0X2xpbmVhcl8yMTE0XzE0NjM1IiB4MT0iNDguMjcyNSIgeTE9Ijk2LjI3NzciIHgyPSI2Ni44Mjg0IiB5Mj0iMTA5LjU0NyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjN0RCM0ZGIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzI1ODBGRiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxjbGlwUGF0aCBpZD0iaWVxOXB3cTdmX19jbGlwMF8yMTE0XzE0NjM1Ij4KICAgICAgPHBhdGggZD0iTTAuNSA1NEMwLjUgMjQuMTc2NiAyNC42NzY2IDAgNTQuNSAwQzg0LjMyMzQgMCAxMDguNSAyNC4xNzY2IDEwOC41IDU0QzEwOC41IDgzLjgyMzQgODQuMzIzNCAxMDggNTQuNSAxMDhDMjQuNjc2NiAxMDggMC41IDgzLjgyMzQgMC41IDU0WiIgZmlsbD0iI2ZmZiIvPgogICAgPC9jbGlwUGF0aD4KICA8L2RlZnM+Cjwvc3ZnPgo="
+        alt=""
+      />
+      <h2>网络错误</h2>
+      <p>很抱歉网络开小差，请稍候再试</p>
+      <!--<div class="button" onclick="history.back()">Retry</div>-->
+      <!-- <div class="button back" onclick="backClick()">返回</div> -->
+      <button class="button back" onclick="closeClick()">确定</button>
+      <!-- <button class="button reload" onclick="restartClick()">刷新</button> -->
+    </div>
+
+    <script type="text/javascript">
+      var ws = null;
+      var ab_ = {
+        plusReady(callback) {
+          if (window.plus) {
+            callback();
+          } else {
+            document.addEventListener('plusready', callback);
+          }
+
+          document.addEventListener(
+            'touchstart',
+            function () {
+              return false;
+            },
+            true,
+          );
+
+          // 禁止选择
+          document.oncontextmenu = function () {
+            return false;
+          };
+
+          // 获取错误信息
+          document.addEventListener(
+            'error',
+            function (e) {
+              console.log('请求的页面无法打开：' + e.href);
+            },
+            false,
+          );
+
+          // 不回调
+          document.addEventListener(
+            'close',
+            function () {
+              console.log('请求的页面已关闭');
+            },
+            false,
+          );
+
+          // 不回调
+          document.addEventListener(
+            'hide',
+            function () {
+              console.log('请求的页面已隐藏');
+            },
+            false,
+          );
+
+          try {
+            // 初始化webview
+            window.uniWebview = uni;
+          } catch (e) {}
+        },
+      };
+
+      ab_.plusReady(function () {
+        var native;
+        var center;
+        try {
+          ws = plus.webview.currentWebview();
+          native = plus.os.name.toLowerCase();
+          if (native === 'android') {
+            center = plus.android.importClass('com.absir.uniplugin.AbCenter').ME();
+          } else if (plus.ios) {
+            center = plus.ios.importClass('AbCenter').ME();
+          }
+        } catch (e) {
+          console.error(e);
+        }
+
+        ab_.native = native;
+        ab_.center = center;
+        ab_.postEvent = function (event, paras) {
+          if (center) {
+            if (native === 'android') {
+              center.postEvent(event, paras);
+            } else {
+              plus.ios.invoke(center, 'postEvent:paras:', event, paras);
+            }
+            return true;
+          }
+        };
+
+        plus.key.addEventListener(
+          'backbutton',
+          function () {
+            console.log('backbutton');
+            window.uniWebview.postMessage({
+              data: {
+                service: 'errorPage', // 模块
+                action: 'close', // 关闭
+              },
+            });
+            ab_.postEvent('message', 'backProj');
+            ws.close();
+            // history.length == 1 && ws.close();
+            // var c = setTimeout(function () {
+            //   ws.close();
+            // }, 1000);
+            // window.onbeforeunload = function () {
+            //   clearTimeout(c);
+            // };
+            // history.go(-2);
+          },
+          false,
+        );
+
+        // 告诉webview当前是错误页,直接关闭即可
+        // window.uniWebview.postMessage({
+        //   data: {
+        //     service: 'errorPage', // 模块
+        //     action: 'closePending', // 关闭表示
+        //   },
+        // });
+      });
+
+      // 返回
+      function backClick() {
+        // history.length == 1 && closeClick();
+        // var c = setTimeout(function () {
+        //   closeClick();
+        // }, 1000);
+        // window.onbeforeunload = function () {
+        //   clearTimeout(c);
+        // };
+        // history.go(-2);
+        // if (history.length == 1) {
+        //   ws.close();
+        // } else {
+        //   ws.back();
+        //   ws.back();
+        // }
+      }
+
+      // 关闭
+      function closeClick() {
+        console.log('closeClick');
+        window.uniWebview.postMessage({
+          data: {
+            service: 'errorPage', // 模块
+            action: 'close', // 关闭
+          },
+        });
+        ab_.postEvent('message', 'backProj');
+        ws.close();
+      }
+
+      // 重启
+      function restartClick() {
+        // plus.runtime.restart();
+        window.uniWebview.postMessage({
+          data: {
+            service: 'errorPage', // 模块
+            action: 'refresh', // 刷新
+          },
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+.imp-top-bg {
+  &-white {
+    background: $ui-color-white;
+  }
+  &-gray {
+    background-color: transparent;
+  }
+  &-primary {
+    background: $ui-color-primary;
+  }
+  &-gradient {
+    background: transparent;
+  }
+  &-welcome {
+    background: $ui-color-blue;
+  }
+  &-clock-in {
+    background: $ui-color-white;
+  }
+}

@@ -1,0 +1,938 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^c-(.*)": "@coral/tui/lib/components/c-$1/c-$1.vue",
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/welcome/welcome-h5",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/workbench/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/message/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "消息"
+      }
+    },
+    {
+      "path": "pages/mine/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "我的"
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "business-components",
+      "pages": [
+        {
+          "path": "selector/index",
+          "style": {
+            "navigationBarTitleText": "　",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "selector/person-separated",
+          "style": {
+            "navigationBarTitleText": "选择离职人员",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "onReachBottomDistance": 100
+          }
+        }
+      ]
+    },
+    {
+      "root": "app-platform",
+      "pages": [
+        {
+          "path": "login/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "login/forget-password",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "重置密码"
+          }
+        },
+        {
+          "path": "login/default-password",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "重置默认密码"
+          }
+        },
+        {
+          "path": "login/bind-mobile",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "绑定手机号"
+          }
+        },
+        {
+          "path": "login/switch-identity",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "请选择"
+          }
+        },
+        {
+          "path": "login/server",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "服务器地址"
+          }
+        },
+        {
+          "path": "mine/personal-data",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "个人资料"
+          }
+        },
+        {
+          "path": "mine/help-feedback",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "使用帮助"
+          }
+        },
+        {
+          "path": "mine/help-feedback-detail",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "mine/scan-code-login",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "message/notification-list",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "message/report-subscribe",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "订阅报表"
+          }
+        },
+        {
+          "path": "mine/about",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "关于"
+          }
+        },
+        {
+          "path": "login/user-agreement",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "用户协议"
+          }
+        },
+        {
+          "path": "workbench/application-center",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "应用中心",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "contacts/student-detail",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "学生详情"
+          }
+        },
+        {
+          "path": "contacts/add-student/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "新增学生"
+          }
+        },
+        {
+          "path": "contacts/invite/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "邀请家长"
+          }
+        },
+        {
+          "path": "contacts/register-form/index",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "入班登记"
+          }
+        },
+        {
+          "path": "contacts/entry-application/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "入班申请"
+          }
+        },
+        {
+          "path": "contacts/allergyType-select/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "过敏信息"
+          }
+        },
+        {
+          "path": "contacts/staff-detail/index",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "workbench/application-center-edit",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "编辑应用",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "workbench/widget-set",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "工作台设置"
+          }
+        },
+        {
+          "path": "webview/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "webview/redirect",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "workbench/banner-article",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "feedback/index",
+          "style": {
+            "navigationBarTitleText": "意见反馈"
+          }
+        },
+        {
+          "path": "feedback/detail",
+          "style": {
+            "navigationBarTitleText": "反馈详情"
+          }
+        }
+      ]
+    },
+    {
+      "root": "app-school-safe",
+      "pages": []
+    },
+    {
+      "root": "app-preprimary-education",
+      "pages": [
+        {
+          "path": "observation-record/index", // 观察记录
+          "style": {
+            "navigationStyle": "custom"
+          }
+        }
+      ]
+    },
+    {
+      "root": "app-general-affairs-logistics",
+      "pages": [
+        {
+          "path": "assets-manage/pages/detail/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "资产详情"
+          }
+        },
+        {
+          "path": "assets-manage/pages/assets-selector/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "资产选择",
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "assets-manage/pages/wareroom/index",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "资产库",
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "assets-manage/pages/print/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "标签打印"
+          }
+        },
+        {
+          "path": "assets-manage/pages/print/select-assets",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "标签打印",
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "assets-manage/pages/print/device",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "搜索设备"
+          }
+        },
+        {
+          "path": "assets-manage/pages/purchaseOrder/index",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "采购单",
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "assets-manage/pages/purchaseRequestetail/index",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "采购申请详情",
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "assets-manage/pages/home/index",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "资产管理",
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "assets-manage/pages/receive/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "资产领用"
+          }
+        },
+        {
+          "path": "assets-manage/pages/receive/detail",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "领用单详情"
+          }
+        },
+        {
+          "path": "assets-manage/pages/borrow/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "资产借用"
+          }
+        },
+        {
+          "path": "assets-manage/pages/borrow/detail",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "借用单详情"
+          }
+        },
+        {
+          "path": "assets-manage/pages/back/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "资产归还"
+          }
+        },
+        {
+          "path": "assets-manage/pages/back/detail",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "归还单详情",
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "assets-manage/pages/repair/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "资产报修"
+          }
+        },
+        {
+          "path": "assets-manage/pages/repair/detail",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "报修单详情",
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "assets-manage/pages/service/index",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "维修资产",
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "assets-manage/pages/approve/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "单据审批",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "components/approve-flow-draw/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "审批流程图"
+          }
+        },
+        {
+          "path": "components/approve-flow-draw/record",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "审批记录"
+          }
+        },
+        {
+          "path": "assets-manage/pages/sendBack/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "资产退还"
+          }
+        },
+        {
+          "path": "assets-manage/pages/sendBack/detail",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "退还单详情"
+          }
+        },
+        {
+          "path": "assets-manage/pages/variation/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "资产变更"
+          }
+        },
+        {
+          "path": "assets-manage/pages/variation/detail",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "变更单详情"
+          }
+        },
+        {
+          "path": "assets-manage/pages/dispose/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "资产处置"
+          }
+        },
+        {
+          "path": "assets-manage/pages/inventory/index",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "资产盘点",
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "assets-manage/pages/dispose/detail",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "处置单详情"
+          }
+        },
+        {
+          "path": "assets-manage/pages/put/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "入库单详情"
+          }
+        },
+        {
+          "path": "assets-manage/pages/inventory/detail/index",
+          "style": {
+            "enablePullDownRefresh": true,
+            "onReachBottomDistance": 100,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "盘点详情"
+          }
+        },
+        {
+          "path": "consumable-management/pages/home/index",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "耗材管理",
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "consumable-management/pages/material-selector/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "backgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "耗材选择",
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "consumable-management/pages/purchase/index",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "新增采购申请",
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "consumable-management/pages/purchase/detail/index",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "采购申请详情",
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "consumable-management/pages/materialPuts/index",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "新增入库申请",
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "consumable-management/pages/materialOut/index",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "新增出库",
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "consumable-management/pages/materialLoseOut/index",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "新增耗损出库",
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "consumable-management/pages/materialBack/index",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "新增退库",
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "consumable-management/pages/materialPuts/detail/index",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "耗材入库详情",
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "consumable-management/pages/materialOut/detail/index",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "出库详情", // 耗材出库详情
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "consumable-management/pages/materialLoseOut/detail/index",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "出库详情", // 耗损出库详情
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "consumable-management/pages/materialBack/detail/index",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "退库详情",
+            "onReachBottomDistance": 100
+          }
+        }
+      ]
+    },
+    // {
+    //   "root": "app-school-affairs-B",
+    //   "pages": []
+    // },
+    // {
+    //   "root": "app-school-affairs-C",
+    //   "pages": []
+    // },
+    // {
+    //   "root": "app-school-affairs-D",
+    //   "pages": []
+    // },
+    {
+      "pages": [
+        {
+          "path": "topic/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "topic/declare/Detail",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "批次信息"
+          }
+        },
+        {
+          "path": "topic/declare/Declare",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "课题申报"
+          }
+        },
+        {
+          "path": "topic/detail/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "课题详情"
+          }
+        },
+        {
+          "path": "topic/detail/ResearchTrends",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "研究动态"
+          }
+        },
+        {
+          "path": "topic/detail/ResearchTrendEditor",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "研究动态"
+          }
+        },
+        {
+          "path": "topic/manage/detail",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "批次详情"
+          }
+        },
+        {
+          "path": "topic/manage/notice",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "通知"
+          }
+        },
+        {
+          "path": "topic/manage/edit",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "payslip/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "工资条"
+          }
+        },
+        {
+          "path": "payslip/list/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "工资条"
+          }
+        },
+        {
+          "path": "payslip/detail/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "工资条详情"
+          }
+        },
+        {
+          "path": "payslip/reset/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "修改密码"
+          }
+        },
+        {
+          "path": "payslip/forget/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "忘记密码"
+          }
+        },
+        {
+          "path": "home-school-notice/share/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "分享"
+          }
+        }
+      ],
+      "root": "app-teacher-personnel"
+    },
+    {
+      "pages": [
+        {
+          "path": "student-archive/index", //学生档案
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "student-archive/edit/index", //学生档案
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "fill-report/home/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "智能填报",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "fill-report/list/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "智能填报"
+          }
+        },
+        {
+          "path": "fill-report/dispatch/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "分发情况"
+          }
+        },
+        {
+          "path": "fill-report/detail/index",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "智能填报",
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "staff-attendance/home/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "我的考勤"
+          }
+        },
+        {
+          "path": "staff-attendance/rule/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "考勤规则"
+          }
+        },
+        {
+          "path": "staff-attendance/map/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "办公地图"
+          }
+        },
+        {
+          "path": "weekly-calendar/home/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "周行事历"
+          }
+        },
+        {
+          "path": "teacher-archive/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "teacher-archive/detail/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "档案详情"
+          }
+        },
+        {
+          "path": "teacher-archive/edit/select",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "components/area-select/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "请选择"
+          }
+        },
+        {
+          "path": "teacher-archive/edit/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "demo/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": ""
+          }
+        }
+      ],
+      "root": "app-school-affairs"
+    },
+    {
+      "root": "app-class-evaluation",
+      "pages": [
+        {
+          "path": "pages/index",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "pages/evaluation/edit",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "pages/student-selector/index",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "关联学生"
+          }
+        },
+        {
+          "path": "pages/student-selector/search",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "搜索学生"
+          }
+        },
+        {
+          "path": "pages/statistics/classTab/detail",
+          "style": { "navigationStyle": "custom" }
+        },
+        {
+          "path": "pages/report/classDetail/index",
+          "style": { "navigationStyle": "custom", "enablePullDownRefresh": true }
+        },
+        {
+          "path": "pages/statistics/scoreTab/weekMonthSelect",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "pages/evaluation/custom",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "自定义评价"
+          }
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f5f5f5",
+    "navigationBarTextStyle": "black",
+    "rpxCalcMaxDeviceWidth": 750,
+    "app-plus": {
+      "bounce": "none"
+    }
+  }
+}

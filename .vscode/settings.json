@@ -1,0 +1,33 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "i18n-ally.localesPaths": [
+    "src/app-preprimary-education/clock-in/components/uni-datetime-picker/i18n"
+  ],
+  "cSpell.words": [
+    "Certifi",
+    "Choosed",
+    "clazz",
+    "dalay",
+    "dcloudio",
+    "Expirate",
+    "extname",
+    "kuaishou",
+    "loadmore",
+    "nomore",
+    "scrolltolower",
+    "subheadline",
+    "tabbar",
+    "tmui",
+    "unpackage",
+    "unref",
+    "weixin"
+  ]
+}

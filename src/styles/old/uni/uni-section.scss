@@ -1,0 +1,27 @@
+.uni-section {
+  background-color: transparent !important;
+  margin-top: unset !important;
+
+  .uni-file-picker {
+    .icon-del-box {
+      width: 32rpx;
+      height: 32rpx;
+      background-color: $ui-color-error;
+
+      .icon-del {
+        width: 20rpx;
+        height: 2rpx;
+      }
+    }
+
+    .is-add {
+      background: $ui-color-white;
+
+      .icon-add {
+        width: 80rpx;
+        height: 8rpx;
+        background-color: $ui-color-placeholder;
+      }
+    }
+  }
+}

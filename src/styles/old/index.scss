@@ -1,0 +1,20 @@
+/**
+* 在此引入全局样式、组件样式(必须按模块区分)
+*/
+
+// 覆盖uni的样式
+@import './uni/index.scss';
+
+// 样式组件
+@import './themes/index.scss';
+
+// 业务样式
+@import './biz/index.scss';
+
+@import '@/app-intelligent-iot/vision-health/assets/style/main.scss';
+
+// 全局默认字体
+// view,
+// text {
+//   font-family: sans-serif;
+// }

@@ -1,0 +1,59 @@
+{
+  "pages": [],
+  "subPackages": [
+    {
+      "pages": [
+        {
+          "path": "curriculum-schedule/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "我的课表"
+          }
+        },
+        {
+          "path": "score-management/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "学生成绩",
+            "enablePullDownRefresh": true,
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "score-management/detail",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "学生成绩单"
+          }
+        }
+      ],
+      "root": "app-school-affairs"
+    }
+  ],
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#86909c",
+    "backgroundColor": "#FFFFFF",
+    "selectedColor": "#176bfb",
+    "list": [
+      {
+        "iconPath": "static/tabbar/icon_tabbar_home.png",
+        "selectedIconPath": "static/tabbar/icon_tabbar_home_selected.png",
+        "pagePath": "pages/workbench/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "static/tabbar/icon_tabbar_message.png",
+        "selectedIconPath": "static/tabbar/icon_tabbar_message_selected.png",
+        "pagePath": "pages/message/index",
+        "text": "消息"
+      },
+      {
+        "iconPath": "static/tabbar/icon_tabbar_mine.png",
+        "selectedIconPath": "static/tabbar/icon_tabbar_mine_selected.png",
+        "pagePath": "pages/mine/index",
+        "text": "我的"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+// 告警详情-告警图片
+.notification-monitor-info-image {
+    display: flex;
+    flex-direction: column;
+    width: 622rpx;
+    height: 360rpx;
+    margin-bottom: $ui-gap-default;
+    border-radius: $ui-radius-xl;
+}
+
+// 告警详情-人脸对比图片
+.notification-face-info-image {
+    width: 262rpx;
+    height: 367rpx;
+}
+
+// 告警详情-出入告警图片
+.alarm-detail-epidemic-image {
+    display: flex;
+    flex-direction: column;
+    width: 622rpx;
+    height: 360rpx;
+    border-radius: $ui-radius-xl;
+}

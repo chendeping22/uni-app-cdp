@@ -1,0 +1,36 @@
+{
+  "appName": "长泰教育",
+  "appVersion": "0.1.0.2",
+  "dcloudAppId": "__UNI__5DDCF69",
+  "appOfficiaUrl": "https://imp.leedarson.com/app/",
+  "uiColorPrimary": "#1677FF",
+  "uiColorPagePrimary": "#f5f5f5",
+  "env": {
+    "pre": {
+      "impUrlOld": "https://pre2imp.leedarson.com/openh5",
+      "eduUrlOld": "https://preimpedu.leedarson.com/h5",
+      "stuUrlOld": "https://premetastu.leedarson.com/h5",
+      "impUrlNew": "https://preimp.leedarson.com",
+      "lowCodeUrl": "https://prelowcodeh5.leedarson.com",
+      "trainingUrl": "https://pre2imp.leedarson.com/openh5",
+      "wxAppId": "wx79f3a784184a17c9",
+      "wxId": "gh_2258b410cbf0",
+      "wxWebUrl": "http://imp-app.leedarson.com",
+      "followGuideSrc": "https://mp.weixin.qq.com/s?__biz=Mzg4ODcyNzQyMQ==&mid=2247483658&idx=1&sn=dffa339b7c168f76911ebd1d8982208a&chksm=cff7f318f8807a0ec0b3e7d5d731c7da3d7d4e3b8bb0f970f018ace63ade428b2fb5785393c0#rd"
+    },
+    "prod": {
+      "impUrlOld": "https://imp2.leedarson.com/openh5",
+      "eduUrlOld": "https://impedu.leedarson.com/h5",
+      "stuUrlOld": "https://metastu.leedarson.com/h5",
+      "impUrlNew": "https://imp.leedarson.com",
+      "lowCodeUrl": "https://lowcodeh5.leedarson.com",
+      "trainingUrl": "https://imp.leedarson.com/openh5",
+      "wxAppId": "wxf2660c87cc89bcd5",
+      "wxId": "gh_f27d0d0aa9ef",
+      "wxWebUrl": "http://imp-app.leedarson.com",
+      "followGuideSrc": "https://mp.weixin.qq.com/s?__biz=MzkyNzMwNTMyMw==&mid=2247483678&idx=1&sn=13973a9ff699901561524c0c4d07d8f2&chksm=c22b5a1af55cd30c4bd4ff20a5b378e81a90544ca1ae9c9d345e4f6625360633dd1117abd00a#rd"
+    }
+  },
+  "wxShareAppId": "wxb56afd09f54c8f2f",
+  "wxSharUniversalLinks": "https://imp.leedarson.com/app/"
+}

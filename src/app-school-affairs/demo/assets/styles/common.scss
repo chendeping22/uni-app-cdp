@@ -1,0 +1,27 @@
+.searchbar {
+  /* position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 2; */
+  background-color: #fff;
+  box-shadow: 0px 1px 2px 0px #0000000a;
+  display: flex;
+  flex-direction: column;
+  height: 200rpx;
+  &-placeholder {
+    padding-top: 200rpx;
+  }
+}
+
+.add-btn {
+  width: $icon-size-xl;
+  height: $icon-size-xl;
+  @include large-title-regular;
+  border-radius: 50%;
+  background: $color-primary;
+  color: $color-text-inverse;
+  text-align: center;
+  position: fixed;
+  right: px2rpx(20px);
+  bottom: calc(px2rpx(60px) + env(safe-area-inset-bottom));
+}

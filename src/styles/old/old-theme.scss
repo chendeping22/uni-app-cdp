@@ -1,0 +1,149 @@
+/* 主色与配色 */
+// $ui-color-primary: #176bfb; // 蓝色主色
+$ui-color-success: #52c41a; // 成功色
+$ui-color-warnning: #faad14; // 告警色
+$ui-color-error: #ff4d4f; // 错误色
+$ui-color-blue: #3491fa;
+$ui-color-purple: #722ed1;
+$ui-color-cyan: #0fc6c2;
+$ui-color-gold: #f7ba1e;
+
+/* 通用主色 */
+$ui-color-white: #ffffff;
+$ui-color-black: #000000;
+$ui-color-transparent: transparent;
+
+/* 字体颜色 */
+$ui-color-font-base: #1d2129;
+$ui-color-font-secondary: #4e5969;
+$ui-color-font-placeholder: #86909c;
+$ui-color-font-disabled: #c9cdd4;
+
+/* 线条 */
+$ui-color-border-strong: #86909c;
+$ui-color-border-deep: #c9cdd4;
+$ui-color-border-default: #e5e6eb;
+$ui-color-border-light: #f2f3f5;
+
+/* 背景 */
+$ui-color-bg-strong: #1d2129;
+$ui-color-bg-dark: #c9cdd4;
+$ui-color-bg-deep: #e5e6eb;
+$ui-color-bg-default: #f2f3f5;
+$ui-color-bg-light: #f7f8fa;
+
+/* 字体颜色 */
+$ui-color-base: #1d2129;
+$ui-color-secondary: #4e5969;
+$ui-color-placeholder: #86909c;
+$ui-color-disabled: #c9cdd4;
+
+/* 边框颜色 */
+$ui-color-line-strong: #86909c;
+$ui-color-line-deep: #c9cdd4;
+$ui-color-line-default: #e5e6eb;
+$ui-color-line-light: #f2f3f5;
+
+/* 背景颜色 */
+$ui-color-fill-strong: #1d2129;
+$ui-color-fill-dark: #c9cdd4;
+$ui-color-fill-deep: #e5e6eb;
+$ui-color-fill-default: #f2f3f5;
+$ui-color-fill-light: #f7f8fa;
+
+/* 主色扩展 */
+$ui-color-primary-dark-1: #1e52d8;
+$ui-color-primary-light-1: #3e88fe;
+$ui-color-primary-light-2: #93beff;
+$ui-color-primary-light-3: #e8f3ff;
+$ui-color-success-dark-1: #009a29;
+$ui-color-success-light-1: #23c343;
+$ui-color-success-light-2: #7be188;
+$ui-color-success-light-3: #e8ffea;
+$ui-color-warnning-dark-1: #d25f00;
+$ui-color-warnning-light-1: #ff9a2e;
+$ui-color-warnning-light-2: #ffcf8b;
+$ui-color-warnning-light-3: #fff7e8;
+$ui-color-error-dark-1: #cb2634;
+$ui-color-error-light-1: #f76560;
+$ui-color-error-light-2: #fbaca3;
+$ui-color-error-light-3: #ffece8;
+$ui-color-blue-dark-1: #206ccf;
+$ui-color-blue-light-1: #57a9fb;
+$ui-color-blue-light-2: #9fd4fd;
+$ui-color-blue-light-3: #e8f7ff;
+$ui-color-purple-dark-1: #551db0;
+$ui-color-purple-light-1: #8d4eda;
+$ui-color-purple-light-2: #c396ed;
+$ui-color-purple-light-3: #f5e8ff;
+$ui-color-cyan-dark-1: #0aa5a8;
+$ui-color-cyan-light-1: #33d1c9;
+$ui-color-cyan-light-2: #86e8dd;
+$ui-color-cyan-light-3: #e8fffb;
+$ui-color-gold-dark-1: #cc9213;
+$ui-color-gold-light-1: #f9cc45;
+$ui-color-gold-light-2: #fce996;
+$ui-color-gold-light-3: #fffce8;
+$ui-color-white-dark-1: #e8f3ff;
+$ui-color-white-light-1: #ffffff;
+$ui-color-white-light-2: #93beff;
+$ui-color-white-light-3: #f7f8fa;
+$ui-color-black-dark-1: #000000;
+$ui-color-black-light-1: #000000;
+$ui-color-black-light-2: #000000;
+$ui-color-black-light-3: #000000;
+
+/* 字体家族变量 */
+$ui-family-regular: 'PingFangSC-Regular', 'Noto Sans', 'San Francisco', 'Roboto';
+$ui-family-medium: 'PingFangSC-Medium', 'Noto Sans', 'San Francisco', 'Roboto';
+
+/* 字体变量 */
+$ui-font-size-desc: 20rpx; // 部分特殊辅助性文字
+$ui-font-size-secondary: 24rpx; // 次级内容
+$ui-font-size-content: 28rpx; // 文本内容
+$ui-font-size-title: 30rpx; // 三级标题、次级标题
+$ui-font-size-xt: 34rpx; // 主层级标题、二级标题
+$ui-font-size-xxt: 40rpx;
+$ui-font-size-xxxt: 44rpx;
+
+/* 字重, 后续将删除 */
+$ui-font-weight-normal: 400;
+$ui-font-weight-bold: 600;
+
+// 盒子阴影
+$ui-card-shadow: rgba(24, 25, 68, 0.05);
+
+/* 间距变量 */
+$ui-gap-xxs: 8rpx;
+$ui-gap-xs: 12rpx;
+$ui-gap-small: 16rpx;
+$ui-gap-default: 24rpx;
+$ui-gap-base: 24rpx;
+$ui-gap-large: 32rpx;
+$ui-gap-xl: 48rpx;
+$ui-gap-none: 0rpx;
+
+/* 高度变量 */
+$ui-height-cell-small: 64rpx;
+$ui-height-cell-default: 88rpx;
+$ui-height-cell-large: 120rpx;
+$ui-height-button-default: 96rpx;
+$ui-height-button-small: 80rpx;
+$ui-height-button-xs: 72rpx;
+$ui-height-button-xxs: 64rpx;
+
+/* 圆角变量 */
+$ui-radius-none: 0rpx;
+$ui-radius-round: 50%;
+$ui-radius-small: 8rpx;
+$ui-radius-default: 12rpx;
+$ui-radius-large: 20rpx;
+$ui-radius-xl: 32rpx;
+$ui-radius-cell-default: 44rpx;
+$ui-radius-cell-large: 60rpx;
+$ui-radius-button-default: 48rpx;
+$ui-radius-button-small: 40rpx;
+$ui-radius-button-xs: 36rpx;
+$ui-radius-button-xxs: 32rpx;
+
+@import '@/app-intelligent-iot/vision-health/assets/style/theme.scss';

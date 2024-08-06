@@ -1,0 +1,9 @@
+.cardRound {
+    border-radius: var(--Radius-radius, 8rpx);
+    background: var(--global-backgrounds-color-bg-container, #fff);
+    box-shadow: 0 1rpx 2rpx 0 #0a000000;
+}
+
+.pageMargin {
+    margin: 24rpx 32rpx 88rpx;
+}

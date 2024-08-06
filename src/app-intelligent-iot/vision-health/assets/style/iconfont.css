@@ -1,0 +1,68 @@
+@font-face {
+  font-family: iconfont; /* Project id 3548152 */
+  src: url('iconfont.ttf?t=1659316619945') format('truetype');
+}
+
+.iconfont {
+  font-family: iconfont !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon_suggest::before {
+  content: "\e60e";
+}
+
+.icon-icon_vision_E::before {
+  content: "\e60c";
+}
+
+.icon-icon_my::before {
+  content: "\e60d";
+}
+
+.icon-icon_eye::before {
+  content: "\e818";
+}
+
+.icon-icon_annotation::before {
+  content: "\e603";
+}
+
+.icon-icon_close::before {
+  content: "\e604";
+}
+
+.icon-icon_forbid_down::before {
+  content: "\e605";
+}
+
+.icon-icon_forbid_right::before {
+  content: "\e606";
+}
+
+.icon-icon_arrow_right::before {
+  content: "\e607";
+}
+
+.icon-icon_man::before {
+  content: "\e608";
+}
+
+.icon-icon_succeed::before {
+  content: "\e609";
+}
+
+.icon-icon_scan::before {
+  content: "\e60a";
+}
+
+.icon-icon_women::before {
+  content: "\e60b";
+}
+
+.icon-icon_time::before {
+  content: "\e602";
+}

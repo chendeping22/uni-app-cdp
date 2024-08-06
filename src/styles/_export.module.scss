@@ -1,0 +1,52 @@
+@import '_variables.scss';
+@import '_typography.scss';
+
+:export {
+  // variables color
+  color-text-base: $color-text-base;
+  color-text-inverse: $color-text-inverse;
+  color-background-base: $color-background-base;
+  color-primary: $color-primary;
+  color-error: $color-error;
+  color-warning: $color-warning;
+  color-success: $color-success;
+  color-info: $color-info;
+
+  color-text: $color-text;
+  color-text-placeholder: $color-text-placeholder;
+
+  // variables
+  radius-xs: strip-unit($radius-xs);
+  radius-sm: strip-unit($radius-sm);
+  radius-base: strip-unit($radius-base);
+  radius-ms: strip-unit($radius-ms);
+  radius-md: strip-unit($radius-md);
+  radius-lg: strip-unit($radius-lg);
+  radius-xl: strip-unit($radius-xl);
+  radius-xxl: strip-unit($radius-xxl);
+  radius-xxxl: strip-unit($radius-xxxl);
+
+  // typography
+  large-title-font-size: strip-unit($large-title-font-size);
+  large-title-line-height: strip-unit($large-title-line-height);
+  title-1-font-size: strip-unit($title-1-font-size);
+  title-1-line-height: strip-unit($title-1-line-height);
+  title-2-font-size: strip-unit($title-2-font-size);
+  title-2-line-height: strip-unit($title-2-line-height);
+  title-3-font-size: strip-unit($title-3-font-size);
+  title-3-line-height: strip-unit($title-3-line-height);
+  headline-font-size: strip-unit($headline-font-size);
+  headline-line-height: strip-unit($headline-line-height);
+  body-font-size: strip-unit($body-font-size);
+  body-line-height: strip-unit($body-line-height);
+  callout-font-size: strip-unit($callout-font-size);
+  callout-line-height: strip-unit($callout-line-height);
+  subheadline-font-size: strip-unit($subheadline-font-size);
+  subheadline-line-height: strip-unit($subheadline-line-height);
+  footnote-font-size: strip-unit($footnote-font-size);
+  footnote-line-height: strip-unit($footnote-line-height);
+  caption-1-font-size: strip-unit($caption-1-font-size);
+  caption-1-line-height: strip-unit($caption-1-line-height);
+  caption-2-font-size: strip-unit($caption-2-font-size);
+  caption-2-line-height: strip-unit($caption-2-line-height);
+}

@@ -1,0 +1,19 @@
+/** 存放临时公共样式, 后期整理到ui-common.css中 */
+
+.abs-top-right {
+    right:0;
+    top:0;
+    transform: translate(50%, -50%);
+}
+
+.opacity-disabled {
+    opacity: 0.4;
+}
+
+/** 非规范的特殊样式 */
+.bg-white-light-spec {
+    background: rgba(255, 255, 255, 0.1)
+}
+.color-white-light-spec {
+    color: rgba(255, 255, 255, 0.7)
+}

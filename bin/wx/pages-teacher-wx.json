@@ -1,0 +1,851 @@
+{
+  "easycom": {
+    "custom": {
+      "^zy-(.*)": "@/app-intelligent-iot/vision-health/components/zy-$1/index.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/contacts/index",
+      "style": {
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationBarTitleText": "通讯录"
+      }
+    },
+    {
+      "path": "pages/contacts/commonUser",
+      "style": {
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationBarTitleText": "常用联系人"
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "pages": [
+        {
+          "path": "vision-health/pages/index/index", // 视力筛查
+          "style": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "视力筛查",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "vision-health/pages/check/index", // 视力筛查
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "视力筛查",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "vision-health/pages/check/refraction/index", // 视力筛查
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "视力筛查",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "vision-health/pages/class/index", // 视力筛查
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "选择班级",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "vision-health/pages/check/equipment", // 视力筛查
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "设备连接",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "vision-health/pages/check/visual-acuity-test/equipment", // 视力筛查-爱唯视
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "设备连接",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "vision-health/pages/check/vision/form", // 视力筛查
+          "style": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "视力采集",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "vision-health/pages/check/visual-acuity-test/form", // 视力筛查-爱唯视
+          "style": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "视力采集",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "vision-health/pages/check/visual-acuity-test/index", // 视力筛查-爱唯视
+          "style": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "视力检测-右眼",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "vision-health/pages/check/visual-acuity-test/result", // 视力筛查-爱唯视
+          "style": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "检测结果",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "vision-health/pages/check/refraction/form", // 视力筛查
+          "style": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "屈光采集",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "vision-health/pages/check/other/form", // 视力筛查
+          "style": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "其他检测项",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "vision-health/pages/class/student", // 视力筛查
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "选择学生",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "vision-health/pages/check/detect/list", // 视力筛查
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "检测记录",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "vision-health/pages/check/detect/info", // 视力筛查
+          "style": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "检测数据",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "vision-health/pages/questionnaire/index", // 视力筛查
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "问卷调查",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "vision-health/pages/questionnaire/info", // 视力筛查
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "问卷详情",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "vision-health/pages/teacher/index", // 视力筛查 视力筛查
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "年级视力统计",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "vision-health/pages/teacher/class", // 视力筛查 视力筛查
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "年级视力统计",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "vision-health/pages/teacher/student-list", // 视力筛查 视力筛查
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "年级视力统计",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "vision-health/pages/teacher/student-report", // 视力筛查 视力筛查
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "筛查结果",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "air-condition-manager/home/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "空调管理",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "air-condition-manager/group/lock/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "分组锁定",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "air-condition-manager/group/control/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "组控",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "air-condition-manager/device/lock/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "设备锁定",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "air-condition-manager/device/control/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "设备控制",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "air-condition-manager/record/lock",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "设备锁定记录",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "air-condition-manager/record/lock-detail",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "设备锁定详情",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "air-condition-manager/record/group",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "分组执行记录",
+            "navigationStyle": "default"
+          }
+        },
+        {
+          "path": "air-condition-manager/record/group-detail",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "记录详情",
+            "navigationStyle": "default"
+          }
+        }
+      ],
+      "root": "app-intelligent-iot"
+    },
+    {
+      "pages": [
+        {
+          "path": "observation-record/index", // 观察记录
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "observation-record/view-picture", // 观察记录
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "observation-record/view-picture-detail", // 详情
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "observation-record/draft", // 草稿箱
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "observation-record/add", // 新建
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "observation-record/video-detail", // 详情
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "observation-record/pointsOfObservation", // 观察要点
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "everyday-task/index", // 每日健康-首页, 每日三检
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "一日三检",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "everyday-task/widget/morning-noon/index",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "everyday-task/widget/inspection-record/index",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "everyday-task/widget/inspection-record/detail", //检查记录(详情)
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "everyday-task/common/healthday-detail/index", // 每日健详情
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "everyday-task/widget/morning-noon/batch", // 每日健康-批量检测
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "everyday-task/common/heart-detail/index", // 心率详情
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "everyday-task/widget/task-check/index", // 每日健康-学生列表
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "everyday-task/widget/check-detail/index", // 每日健康-检查详情
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "everyday-task/widget/check-detail/batch",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "clock-in/teacher/tasks/choose-template/index",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "clock-in/teacher/tasks/new-edit-tasks/index",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "clock-in/teacher/tasks/new-edit-tasks/components/release-complete/index",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "clock-in/teacher/tasks/new-edit-tasks/components/clock-frequency/index",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "clock-in/teacher/tasks/new-edit-tasks/components/clock-in-type/index",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "clock-in/teacher/tasks/new-edit-tasks/components/class-list/index",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "clock-in/teacher/tasks/new-edit-tasks/components/student-list/index",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "clock-in/index",
+          "style": {
+            "navigationBarTextStyle": "black",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "clock-in/teacher/tasks/index",
+          "style": {
+            "navigationBarTextStyle": "black",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "clock-in/teacher/detail/index",
+          "style": {
+            "navigationBarTextStyle": "black",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "clock-in/teacher/detail/task-list/index",
+          "style": {
+            "navigationBarTextStyle": "black",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "clock-in/guardian/task-calendar/index",
+          "style": {
+            "navigationBarTextStyle": "black",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "clock-in/video-detail",
+          "style": {
+            "navigationBarTextStyle": "black",
+            "navigationStyle": "custom"
+          }
+        },
+        // ============ 时光集 START ========================================
+        {
+          "path": "time-impression/index",
+          "style": {
+            "navigationBarTitleText": "时光集",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "time-impression/add",
+          "style": {
+            "navigationBarTitleText": "时光集",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "time-impression/view-picture",
+          "style": {
+            "navigationBarTitleText": "时光集",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "time-impression/view-picture-detail",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "time-impression/operation-way",
+          "style": {
+            "navigationBarTitleText": "操作方式",
+            "navigationStyle": "custom"
+          }
+        },
+        // ============ 时光集 END ========================================
+        {
+          "path": "feed-medicine/index", // 服药登记-中转页
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "feed-medicine/teacher/index", // 喂药服务-列表
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "feed-medicine/teacher/medicine-detail/index", // 服药登记-详情
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        // ==================== 疾病管理 START ====================
+        {
+          "path": "disease-management/guardian/index",
+          "style": {
+            "navigationBarTitleText": "疾病管理",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "disease-management/guardian/detail",
+          "style": {
+            "navigationBarTitleText": "疾病详情",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "disease-management/guardian/track-operation",
+          "style": {
+            "navigationBarTitleText": "疾病跟踪",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "disease-management/guardian/disease-selector",
+          "style": {
+            "navigationBarTitleText": "疾病症状",
+            "navigationStyle": "custom"
+          }
+        },
+        // ==================== 疾病管理 END ====================
+        // ============ 电子勋章 START ========================================
+        {
+          "path": "electronic-medal/index",
+          "style": {
+            "navigationBarTitleText": "电子勋章",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "electronic-medal/student-medal-info",
+          "style": {
+            "navigationBarTitleText": "电子勋章",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "electronic-medal/add-medal",
+          "style": {
+            "navigationBarTitleText": "点亮勋章",
+            "navigationStyle": "custom"
+          }
+        },
+        // ============ 电子勋章 END ========================================
+        // ============ 教学计划 START ========================================
+        {
+          "path": "weekly-plan/index",
+          "style": {
+            "navigationBarTitleText": "教学计划",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "weekly-plan/add",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        }
+        // ============ 教学计划 END ========================================
+      ],
+      "root": "app-preprimary-education"
+    },
+    {
+      "pages": [
+        {
+          "path": "visitor-appointment/index",
+          "style": {
+            "navigationBarTitleText": "访客预约"
+          }
+        },
+        {
+          "path": "access-management/alarm-notification-detail",
+          "style": {
+            "navigationBarTitleText": "通知详情"
+          }
+        }
+      ],
+      "root": "app-school-safe"
+    },
+    {
+      "pages": [
+        {
+          "path": "curriculum-schedule/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "课表管理"
+          }
+        },
+        {
+          "path": "curriculum-adjust/detail",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "调课申请"
+          }
+        },
+        {
+          "path": "curriculum-adjust/cancel",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "撤销申请"
+          }
+        },
+        {
+          "path": "curriculum-adjust/apply",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "选择原有课表"
+          }
+        },
+        {
+          "path": "curriculum-adjust/apply-2",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "选择调整课表"
+          }
+        },
+        {
+          "path": "curriculum-adjust/apply-3",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "选择调整课表"
+          }
+        },
+        {
+          "path": "curriculum-adjust/apply-4",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "申请调课"
+          }
+        },
+        {
+          "path": "curriculum-supply/detail",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "代课申请"
+          }
+        },
+        {
+          "path": "curriculum-supply/apply",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "选择原有课表"
+          }
+        },
+        {
+          "path": "curriculum-supply/apply-2",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "选择代课老师"
+          }
+        },
+        {
+          "path": "curriculum-supply/apply-3",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "申请代课"
+          }
+        }
+      ],
+      "root": "app-school-affairs"
+    },
+    {
+      "pages": [
+        /* 信息发布 + 审核 */
+        {
+          "path": "infos/news/detail",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "资讯详情"
+          }
+        },
+        {
+          "path": "infos/news/edit",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "资讯编辑"
+          }
+        },
+        {
+          "path": "infos/news/publish",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "发布资讯"
+          }
+        },
+        {
+          "path": "infos/album/detail",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "相册详情"
+          }
+        },
+        {
+          "path": "infos/album/edit",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "相册编辑"
+          }
+        },
+        {
+          "path": "infos/album/publish",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "发布相册"
+          }
+        },
+        {
+          "path": "infos/video/detail",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "视频详情"
+          }
+        },
+        {
+          "path": "infos/video/edit",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "视频编辑"
+          }
+        },
+        {
+          "path": "infos/video/publish",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "发布视频"
+          }
+        },
+        {
+          "path": "infos/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "信息发布"
+          }
+        },
+        {
+          "path": "infos/review/detail",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "审核详情"
+          }
+        }
+      ],
+      "root": "app-platform"
+    }
+  ],
+  "tabBar": {
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "color": "#86909c",
+    "list": [
+      {
+        "iconPath": "static/tabbar/icon_tabbar_home.png",
+        "pagePath": "pages/workbench/index",
+        "selectedIconPath": "static/tabbar/icon_tabbar_home_selected.png",
+        "text": "工作台"
+      },
+      {
+        "iconPath": "static/tabbar/icon_tabbar_contacts.png",
+        "pagePath": "pages/contacts/index",
+        "selectedIconPath": "static/tabbar/icon_tabbar_contacts_selected.png",
+        "text": "通讯录"
+      },
+      {
+        "iconPath": "static/tabbar/icon_tabbar_message.png",
+        "pagePath": "pages/message/index",
+        "selectedIconPath": "static/tabbar/icon_tabbar_message_selected.png",
+        "text": "消息"
+      },
+      {
+        "iconPath": "static/tabbar/icon_tabbar_mine.png",
+        "pagePath": "pages/mine/index",
+        "selectedIconPath": "static/tabbar/icon_tabbar_mine_selected.png",
+        "text": "我的"
+      }
+    ],
+    "selectedColor": "#176bfb"
+  }
+}

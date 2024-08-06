@@ -1,0 +1,44 @@
+// swiperAnimate1与swiperAnimate2, 配套使用, 打开页面时摇摆的动画
+@keyframes swiperAnimate1 {
+  0% {
+    transform: translate(0%, 0px) translateZ(0px);
+  }
+  50% {
+    transform: translate(-15%, 0);
+  }
+  100% {
+    transform: translate(0%, 0px) translateZ(0px);
+  }
+}
+@keyframes swiperAnimate2 {
+  0% {
+    transform: translate(100%, 0px) translateZ(0px);
+  }
+  50% {
+    transform: translate(85%, 0);
+  }
+  100% {
+    transform: translate(100%, 0px) translateZ(0px);
+  }
+}
+
+@keyframes swiperAnimate3 {
+  0% {
+    transform: translate(200%, 0px) translateZ(0px);
+  }
+  50% {
+    transform: translate(185%, 0);
+  }
+  100% {
+    transform: translate(200%, 0px) translateZ(0px);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "麦塔校园",
+  "appid": "wx5e4fe3e320887e02",
+  "description": "",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "app-plus": {},
+  "quickapp": {},
+  "mp-weixin": {
+    "appid": "wx5e4fe3e320887e02",
+    "setting": {
+      "urlCheck": false,
+      "minified": true,
+      "postcss": false,
+      "es6": true,
+      "bigPackageSizeSupport": false
+    },
+    "usingComponents": true
+  },
+  "h5": {
+    "router": {
+      "mode": "history"
+    },
+    "devServer": {
+      "disableHostCheck": true,
+      "proxy": {
+        "/api": {
+          "target": "https://devimp.lexikos.com",
+          "changeOrigin": true,
+          "secure": false
+        }
+      }
+    }
+  },
+  "uniStatistics": {
+    "enable": false
+  }
+}

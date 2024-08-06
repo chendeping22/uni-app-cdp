@@ -1,0 +1,67 @@
+@import './_functions.scss';
+@import './_variables-color.scss';
+
+//=== size ===//
+$icon-size-xxs: px2rpx(12px) !default;
+$icon-size-xs: px2rpx(16px) !default;
+$icon-size-sm: px2rpx(20px) !default;
+$icon-size-base: px2rpx(24px) !default;
+$icon-size-md: px2rpx(28px) !default;
+$icon-size-lg: px2rpx(32px) !default;
+$icon-size-xl: px2rpx(48px) !default;
+
+//=== space ===//
+$space-size-none: 0 !default;
+$space-size-s: px2rpx(4px) !default;
+$space-size-base: px2rpx(8px) !default;
+$space-size-ms: px2rpx(12px) !default;
+$space-size-md: px2rpx(16px) !default;
+$space-size-lg: px2rpx(24px) !default;
+$space-size-xl: px2rpx(32px) !default;
+$space-size-xxl: px2rpx(48px) !default;
+$space-size-xxxl: px2rpx(56px) !default;
+
+//=== radius ===//
+$radius-xs: px2rpx(2px) !default;
+$radius-sm: px2rpx(4px) !default;
+$radius-base: px2rpx(8px) !default;
+$radius-ms: px2rpx(12px) !default;
+$radius-md: px2rpx(16px) !default;
+$radius-lg: px2rpx(24px) !default;
+$radius-xl: px2rpx(32px) !default;
+$radius-xxl: px2rpx(40px) !default;
+$radius-xxxl: px2rpx(48px) !default;
+$radius-round: 50% !default;
+
+//=== box shadow ===//
+// light down
+$shadow-light-down-base: 0 px2rpx(1px) px2rpx(2px) 0 #0000000a;
+$shadow-light-down-md: 0 px2rpx(2px) px2rpx(4px) 0 #00000014;
+$shadow-light-down-lg: 0 px2rpx(4px) px2rpx(8px) 0 #00000029;
+$shadow-light-down-xl: 0 px2rpx(8px) px2rpx(16px) 0 #00000033;
+$shadow-light-down-2xl: 0 px2rpx(12px) px2rpx(24px) 0 #0000003d;
+// light up
+$shadow-light-up-base: 0 px2rpx(-1px) px2rpx(2px) 0 #0000000a;
+$shadow-light-up-md: 0 px2rpx(-2px) px2rpx(4px) 0 #00000014;
+$shadow-light-up-lg: 0 px2rpx(-4px) px2rpx(8px) 0 #00000029;
+$shadow-light-up-xl: 0 px2rpx(-8px) px2rpx(16px) 0 #00000033;
+$shadow-light-up-2xl: 0 px2rpx(-12px) px2rpx(24px) 0 #0000003d;
+$shadow-light-up-inner: 0 0 px2rpx(4px) 0 #00000029 inset;
+// dark down
+$shadow-dark-down-base: 0 px2rpx(1px) px2rpx(2px) 0 #0000001f;
+$shadow-dark-down-md: 0 px2rpx(2px) px2rpx(4px) 0 #00000029;
+$shadow-dark-down-lg: 0 px2rpx(4px) px2rpx(8px) 0 #0000003d;
+$shadow-dark-down-xl: 0 px2rpx(8px) px2rpx(16px) 0 #00000047;
+$shadow-dark-down-2xl: 0 px2rpx(12px) px2rpx(24px) 0 #00000052;
+// dark up
+$shadow-dark-up-base: 0 px2rpx(-1px) px2rpx(2px) 0 #0000001f;
+$shadow-dark-up-md: 0 px2rpx(-2px) px2rpx(4px) 0 #00000029;
+$shadow-dark-up-lg: 0 px2rpx(-4px) px2rpx(8px) 0 #0000003d;
+$shadow-dark-up-xl: 0 px2rpx(-8px) px2rpx(16px) 0 #00000047;
+$shadow-dark-up-2xl: 0 px2rpx(-12px) px2rpx(24px) 0 #00000052;
+$shadow-dark-up-inner: 0 0 px2rpx(4px) 0 #0000003d inset;
+
+//=== button ===//
+$button-height-large: px2rpx(52px);
+$button-height-medium: px2rpx(40px);
+$button-height-mini: px2rpx(32px);

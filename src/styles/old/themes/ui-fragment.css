@@ -1,0 +1,2113 @@
+@charset "UTF-8";
+/* 主色与配色 */
+/* 通用主色 */
+/* 字体颜色 */
+/* 边框颜色 */
+/* 背景颜色 */
+/* 主色扩展 */
+/* 字体家族变量 */
+/* 遮罩透明度 */
+/* 字体尺寸变量 */
+/* 阴影 */
+/* 间距变量 */
+/* 高度变量 */
+/* 圆角变量 */
+/* 颜色变量 */
+/* 字体家族变量 */
+/* 遮罩透明度 */
+/* 字体尺寸变量 */
+/* 阴影 */
+/* 间距变量 */
+/* 高度变量 */
+/* 圆角变量 */
+/** t,r,b,l 都是方向的简写 */
+/*==============================================分割线==============================================*/
+.color-primary {
+  color: #176bfb;
+}
+
+.color-success {
+  color: #00b42a;
+}
+
+.color-warnning {
+  color: #fe7c00;
+}
+
+.color-error {
+  color: #f53f3f;
+}
+
+.color-blue {
+  color: #3491fa;
+}
+
+.color-purple {
+  color: #722ed1;
+}
+
+.color-cyan {
+  color: #0fc6c2;
+}
+
+.color-gold {
+  color: #f7ba1e;
+}
+
+.color-white {
+  color: #ffffff;
+}
+
+.color-black {
+  color: #000000;
+}
+
+.color-transparent {
+  color: transparent;
+}
+
+.color-base {
+  color: #1d2129;
+}
+
+.color-secondary {
+  color: #4e5969;
+}
+
+.color-placeholder {
+  color: #86909c;
+}
+
+.color-disabled {
+  color: #c9cdd4;
+}
+
+.color-line-strong {
+  color: #86909c;
+}
+
+.color-line-deep {
+  color: #c9cdd4;
+}
+
+.color-line-default {
+  color: #e5e6eb;
+}
+
+.color-line-light {
+  color: #f2f3f5;
+}
+
+.color-fill-strong {
+  color: #1d2129;
+}
+
+.color-fill-dark {
+  color: #c9cdd4;
+}
+
+.color-fill-deep {
+  color: #e5e6eb;
+}
+
+.color-fill-default {
+  color: #f2f3f5;
+}
+
+.color-fill-light {
+  color: #f7f8fa;
+}
+
+.color-primary-dark-1 {
+  color: #1e52d8;
+}
+
+.color-primary-light-1 {
+  color: #3e88fe;
+}
+
+.color-primary-light-2 {
+  color: #93beff;
+}
+
+.color-primary-light-3 {
+  color: #e8f3ff;
+}
+
+.color-success-dark-1 {
+  color: #009a29;
+}
+
+.color-success-light-1 {
+  color: #23c343;
+}
+
+.color-success-light-2 {
+  color: #7be188;
+}
+
+.color-success-light-3 {
+  color: #e8ffea;
+}
+
+.color-warnning-dark-1 {
+  color: #d25f00;
+}
+
+.color-warnning-light-1 {
+  color: #ff9a2e;
+}
+
+.color-warnning-light-2 {
+  color: #ffcf8b;
+}
+
+.color-warnning-light-3 {
+  color: #fff7e8;
+}
+
+.color-error-dark-1 {
+  color: #cb2634;
+}
+
+.color-error-light-1 {
+  color: #f76560;
+}
+
+.color-error-light-2 {
+  color: #fbaca3;
+}
+
+.color-error-light-3 {
+  color: #ffece8;
+}
+
+.color-blue-dark-1 {
+  color: #206ccf;
+}
+
+.color-blue-light-1 {
+  color: #57a9fb;
+}
+
+.color-blue-light-2 {
+  color: #9fd4fd;
+}
+
+.color-blue-light-3 {
+  color: #e8f7ff;
+}
+
+.color-purple-dark-1 {
+  color: #551db0;
+}
+
+.color-purple-light-1 {
+  color: #8d4eda;
+}
+
+.color-purple-light-2 {
+  color: #c396ed;
+}
+
+.color-purple-light-3 {
+  color: #f5e8ff;
+}
+
+.color-cyan-dark-1 {
+  color: #0aa5a8;
+}
+
+.color-cyan-light-1 {
+  color: #33d1c9;
+}
+
+.color-cyan-light-2 {
+  color: #86e8dd;
+}
+
+.color-cyan-light-3 {
+  color: #e8fffb;
+}
+
+.color-gold-dark-1 {
+  color: #cc9213;
+}
+
+.color-gold-light-1 {
+  color: #f9cc45;
+}
+
+.color-gold-light-2 {
+  color: #fce996;
+}
+
+.color-gold-light-3 {
+  color: #fffce8;
+}
+
+.color-white-dark-1 {
+  color: #e8f3ff;
+}
+
+.color-white-light-1 {
+  color: #ffffff;
+}
+
+.color-white-light-2 {
+  color: #93beff;
+}
+
+.color-white-light-3 {
+  color: #f7f8fa;
+}
+
+.color-black-dark-1 {
+  color: #000000;
+}
+
+.color-black-light-1 {
+  color: #000000;
+}
+
+.color-black-light-2 {
+  color: #000000;
+}
+
+.color-black-light-3 {
+  color: #000000;
+}
+
+.border-primary {
+  border-color: #176bfb;
+}
+
+.border-success {
+  border-color: #00b42a;
+}
+
+.border-warnning {
+  border-color: #fe7c00;
+}
+
+.border-error {
+  border-color: #f53f3f;
+}
+
+.border-blue {
+  border-color: #3491fa;
+}
+
+.border-purple {
+  border-color: #722ed1;
+}
+
+.border-cyan {
+  border-color: #0fc6c2;
+}
+
+.border-gold {
+  border-color: #f7ba1e;
+}
+
+.border-white {
+  border-color: #ffffff;
+}
+
+.border-black {
+  border-color: #000000;
+}
+
+.border-transparent {
+  border-color: transparent;
+}
+
+.border-base {
+  border-color: #1d2129;
+}
+
+.border-secondary {
+  border-color: #4e5969;
+}
+
+.border-placeholder {
+  border-color: #86909c;
+}
+
+.border-disabled {
+  border-color: #c9cdd4;
+}
+
+.border-line-strong {
+  border-color: #86909c;
+}
+
+.border-line-deep {
+  border-color: #c9cdd4;
+}
+
+.border-line-default {
+  border-color: #e5e6eb;
+}
+
+.border-line-light {
+  border-color: #f2f3f5;
+}
+
+.border-fill-strong {
+  border-color: #1d2129;
+}
+
+.border-fill-dark {
+  border-color: #c9cdd4;
+}
+
+.border-fill-deep {
+  border-color: #e5e6eb;
+}
+
+.border-fill-default {
+  border-color: #f2f3f5;
+}
+
+.border-fill-light {
+  border-color: #f7f8fa;
+}
+
+.border-primary-dark-1 {
+  border-color: #1e52d8;
+}
+
+.border-primary-light-1 {
+  border-color: #3e88fe;
+}
+
+.border-primary-light-2 {
+  border-color: #93beff;
+}
+
+.border-primary-light-3 {
+  border-color: #e8f3ff;
+}
+
+.border-success-dark-1 {
+  border-color: #009a29;
+}
+
+.border-success-light-1 {
+  border-color: #23c343;
+}
+
+.border-success-light-2 {
+  border-color: #7be188;
+}
+
+.border-success-light-3 {
+  border-color: #e8ffea;
+}
+
+.border-warnning-dark-1 {
+  border-color: #d25f00;
+}
+
+.border-warnning-light-1 {
+  border-color: #ff9a2e;
+}
+
+.border-warnning-light-2 {
+  border-color: #ffcf8b;
+}
+
+.border-warnning-light-3 {
+  border-color: #fff7e8;
+}
+
+.border-error-dark-1 {
+  border-color: #cb2634;
+}
+
+.border-error-light-1 {
+  border-color: #f76560;
+}
+
+.border-error-light-2 {
+  border-color: #fbaca3;
+}
+
+.border-error-light-3 {
+  border-color: #ffece8;
+}
+
+.border-blue-dark-1 {
+  border-color: #206ccf;
+}
+
+.border-blue-light-1 {
+  border-color: #57a9fb;
+}
+
+.border-blue-light-2 {
+  border-color: #9fd4fd;
+}
+
+.border-blue-light-3 {
+  border-color: #e8f7ff;
+}
+
+.border-purple-dark-1 {
+  border-color: #551db0;
+}
+
+.border-purple-light-1 {
+  border-color: #8d4eda;
+}
+
+.border-purple-light-2 {
+  border-color: #c396ed;
+}
+
+.border-purple-light-3 {
+  border-color: #f5e8ff;
+}
+
+.border-cyan-dark-1 {
+  border-color: #0aa5a8;
+}
+
+.border-cyan-light-1 {
+  border-color: #33d1c9;
+}
+
+.border-cyan-light-2 {
+  border-color: #86e8dd;
+}
+
+.border-cyan-light-3 {
+  border-color: #e8fffb;
+}
+
+.border-gold-dark-1 {
+  border-color: #cc9213;
+}
+
+.border-gold-light-1 {
+  border-color: #f9cc45;
+}
+
+.border-gold-light-2 {
+  border-color: #fce996;
+}
+
+.border-gold-light-3 {
+  border-color: #fffce8;
+}
+
+.border-white-dark-1 {
+  border-color: #e8f3ff;
+}
+
+.border-white-light-1 {
+  border-color: #ffffff;
+}
+
+.border-white-light-2 {
+  border-color: #93beff;
+}
+
+.border-white-light-3 {
+  border-color: #f7f8fa;
+}
+
+.border-black-dark-1 {
+  border-color: #000000;
+}
+
+.border-black-light-1 {
+  border-color: #000000;
+}
+
+.border-black-light-2 {
+  border-color: #000000;
+}
+
+.border-black-light-3 {
+  border-color: #000000;
+}
+
+/**背景类 */
+.bg-primary {
+  background: #176bfb;
+}
+
+.bg-success {
+  background: #00b42a;
+}
+
+.bg-warnning {
+  background: #fe7c00;
+}
+
+.bg-error {
+  background: #f53f3f;
+}
+
+.bg-blue {
+  background: #3491fa;
+}
+
+.bg-purple {
+  background: #722ed1;
+}
+
+.bg-cyan {
+  background: #0fc6c2;
+}
+
+.bg-gold {
+  background: #f7ba1e;
+}
+
+.bg-white {
+  background: #ffffff;
+}
+
+.bg-black {
+  background: #000000;
+}
+
+.bg-transparent {
+  background: transparent;
+}
+
+.bg-base {
+  background: #1d2129;
+}
+
+.bg-secondary {
+  background: #4e5969;
+}
+
+.bg-placeholder {
+  background: #86909c;
+}
+
+.bg-disabled {
+  background: #c9cdd4;
+}
+
+.bg-line-strong {
+  background: #86909c;
+}
+
+.bg-line-deep {
+  background: #c9cdd4;
+}
+
+.bg-line-default {
+  background: #e5e6eb;
+}
+
+.bg-line-light {
+  background: #f2f3f5;
+}
+
+.bg-fill-strong {
+  background: #1d2129;
+}
+
+.bg-fill-dark {
+  background: #c9cdd4;
+}
+
+.bg-fill-deep {
+  background: #e5e6eb;
+}
+
+.bg-fill-default {
+  background: #f2f3f5;
+}
+
+.bg-fill-light {
+  background: #f7f8fa;
+}
+
+.bg-primary-dark-1 {
+  background: #1e52d8;
+}
+
+.bg-primary-light-1 {
+  background: #3e88fe;
+}
+
+.bg-primary-light-2 {
+  background: #93beff;
+}
+
+.bg-primary-light-3 {
+  background: #e8f3ff;
+}
+
+.bg-success-dark-1 {
+  background: #009a29;
+}
+
+.bg-success-light-1 {
+  background: #23c343;
+}
+
+.bg-success-light-2 {
+  background: #7be188;
+}
+
+.bg-success-light-3 {
+  background: #e8ffea;
+}
+
+.bg-warnning-dark-1 {
+  background: #d25f00;
+}
+
+.bg-warnning-light-1 {
+  background: #ff9a2e;
+}
+
+.bg-warnning-light-2 {
+  background: #ffcf8b;
+}
+
+.bg-warnning-light-3 {
+  background: #fff7e8;
+}
+
+.bg-error-dark-1 {
+  background: #cb2634;
+}
+
+.bg-error-light-1 {
+  background: #f76560;
+}
+
+.bg-error-light-2 {
+  background: #fbaca3;
+}
+
+.bg-error-light-3 {
+  background: #ffece8;
+}
+
+.bg-blue-dark-1 {
+  background: #206ccf;
+}
+
+.bg-blue-light-1 {
+  background: #57a9fb;
+}
+
+.bg-blue-light-2 {
+  background: #9fd4fd;
+}
+
+.bg-blue-light-3 {
+  background: #e8f7ff;
+}
+
+.bg-purple-dark-1 {
+  background: #551db0;
+}
+
+.bg-purple-light-1 {
+  background: #8d4eda;
+}
+
+.bg-purple-light-2 {
+  background: #c396ed;
+}
+
+.bg-purple-light-3 {
+  background: #f5e8ff;
+}
+
+.bg-cyan-dark-1 {
+  background: #0aa5a8;
+}
+
+.bg-cyan-light-1 {
+  background: #33d1c9;
+}
+
+.bg-cyan-light-2 {
+  background: #86e8dd;
+}
+
+.bg-cyan-light-3 {
+  background: #e8fffb;
+}
+
+.bg-gold-dark-1 {
+  background: #cc9213;
+}
+
+.bg-gold-light-1 {
+  background: #f9cc45;
+}
+
+.bg-gold-light-2 {
+  background: #fce996;
+}
+
+.bg-gold-light-3 {
+  background: #fffce8;
+}
+
+.bg-white-dark-1 {
+  background: #e8f3ff;
+}
+
+.bg-white-light-1 {
+  background: #ffffff;
+}
+
+.bg-white-light-2 {
+  background: #93beff;
+}
+
+.bg-white-light-3 {
+  background: #f7f8fa;
+}
+
+.bg-black-dark-1 {
+  background: #000000;
+}
+
+.bg-black-light-1 {
+  background: #000000;
+}
+
+.bg-black-light-2 {
+  background: #000000;
+}
+
+.bg-black-light-3 {
+  background: #000000;
+}
+
+/** 点击的背景颜色, 背景颜色加后缀-hover*/
+.bg-primary-hover {
+  background: #176bfb;
+}
+
+.bg-success-hover {
+  background: #00b42a;
+}
+
+.bg-warnning-hover {
+  background: #fe7c00;
+}
+
+.bg-error-hover {
+  background: #f53f3f;
+}
+
+.bg-blue-hover {
+  background: #3491fa;
+}
+
+.bg-purple-hover {
+  background: #722ed1;
+}
+
+.bg-cyan-hover {
+  background: #0fc6c2;
+}
+
+.bg-gold-hover {
+  background: #f7ba1e;
+}
+
+.bg-white-hover {
+  background: #ffffff;
+}
+
+.bg-black-hover {
+  background: #000000;
+}
+
+.bg-transparent-hover {
+  background: transparent;
+}
+
+.bg-base-hover {
+  background: #1d2129;
+}
+
+.bg-secondary-hover {
+  background: #4e5969;
+}
+
+.bg-placeholder-hover {
+  background: #86909c;
+}
+
+.bg-disabled-hover {
+  background: #c9cdd4;
+}
+
+.bg-line-strong-hover {
+  background: #86909c;
+}
+
+.bg-line-deep-hover {
+  background: #c9cdd4;
+}
+
+.bg-line-default-hover {
+  background: #e5e6eb;
+}
+
+.bg-line-light-hover {
+  background: #f2f3f5;
+}
+
+.bg-fill-strong-hover {
+  background: #1d2129;
+}
+
+.bg-fill-dark-hover {
+  background: #c9cdd4;
+}
+
+.bg-fill-deep-hover {
+  background: #e5e6eb;
+}
+
+.bg-fill-default-hover {
+  background: #f2f3f5;
+}
+
+.bg-fill-light-hover {
+  background: #f7f8fa;
+}
+
+.bg-primary-dark-1-hover {
+  background: #1e52d8;
+}
+
+.bg-primary-light-1-hover {
+  background: #3e88fe;
+}
+
+.bg-primary-light-2-hover {
+  background: #93beff;
+}
+
+.bg-primary-light-3-hover {
+  background: #e8f3ff;
+}
+
+.bg-success-dark-1-hover {
+  background: #009a29;
+}
+
+.bg-success-light-1-hover {
+  background: #23c343;
+}
+
+.bg-success-light-2-hover {
+  background: #7be188;
+}
+
+.bg-success-light-3-hover {
+  background: #e8ffea;
+}
+
+.bg-warnning-dark-1-hover {
+  background: #d25f00;
+}
+
+.bg-warnning-light-1-hover {
+  background: #ff9a2e;
+}
+
+.bg-warnning-light-2-hover {
+  background: #ffcf8b;
+}
+
+.bg-warnning-light-3-hover {
+  background: #fff7e8;
+}
+
+.bg-error-dark-1-hover {
+  background: #cb2634;
+}
+
+.bg-error-light-1-hover {
+  background: #f76560;
+}
+
+.bg-error-light-2-hover {
+  background: #fbaca3;
+}
+
+.bg-error-light-3-hover {
+  background: #ffece8;
+}
+
+.bg-blue-dark-1-hover {
+  background: #206ccf;
+}
+
+.bg-blue-light-1-hover {
+  background: #57a9fb;
+}
+
+.bg-blue-light-2-hover {
+  background: #9fd4fd;
+}
+
+.bg-blue-light-3-hover {
+  background: #e8f7ff;
+}
+
+.bg-purple-dark-1-hover {
+  background: #551db0;
+}
+
+.bg-purple-light-1-hover {
+  background: #8d4eda;
+}
+
+.bg-purple-light-2-hover {
+  background: #c396ed;
+}
+
+.bg-purple-light-3-hover {
+  background: #f5e8ff;
+}
+
+.bg-cyan-dark-1-hover {
+  background: #0aa5a8;
+}
+
+.bg-cyan-light-1-hover {
+  background: #33d1c9;
+}
+
+.bg-cyan-light-2-hover {
+  background: #86e8dd;
+}
+
+.bg-cyan-light-3-hover {
+  background: #e8fffb;
+}
+
+.bg-gold-dark-1-hover {
+  background: #cc9213;
+}
+
+.bg-gold-light-1-hover {
+  background: #f9cc45;
+}
+
+.bg-gold-light-2-hover {
+  background: #fce996;
+}
+
+.bg-gold-light-3-hover {
+  background: #fffce8;
+}
+
+.bg-white-dark-1-hover {
+  background: #e8f3ff;
+}
+
+.bg-white-light-1-hover {
+  background: #ffffff;
+}
+
+.bg-white-light-2-hover {
+  background: #93beff;
+}
+
+.bg-white-light-3-hover {
+  background: #f7f8fa;
+}
+
+.bg-black-dark-1-hover {
+  background: #000000;
+}
+
+.bg-black-light-1-hover {
+  background: #000000;
+}
+
+.bg-black-light-2-hover {
+  background: #000000;
+}
+
+.bg-black-light-3-hover {
+  background: #000000;
+}
+
+/** 按钮禁用类-背景, 注意使用时需要另加类名disabled */
+button[disabled].disabled.bg-primary {
+  background: #176bfb;
+}
+
+button[disabled].disabled.bg-success {
+  background: #00b42a;
+}
+
+button[disabled].disabled.bg-warnning {
+  background: #fe7c00;
+}
+
+button[disabled].disabled.bg-error {
+  background: #f53f3f;
+}
+
+button[disabled].disabled.bg-blue {
+  background: #3491fa;
+}
+
+button[disabled].disabled.bg-purple {
+  background: #722ed1;
+}
+
+button[disabled].disabled.bg-cyan {
+  background: #0fc6c2;
+}
+
+button[disabled].disabled.bg-gold {
+  background: #f7ba1e;
+}
+
+button[disabled].disabled.bg-white {
+  background: #ffffff;
+}
+
+button[disabled].disabled.bg-black {
+  background: #000000;
+}
+
+button[disabled].disabled.bg-transparent {
+  background: transparent;
+}
+
+button[disabled].disabled.bg-base {
+  background: #1d2129;
+}
+
+button[disabled].disabled.bg-secondary {
+  background: #4e5969;
+}
+
+button[disabled].disabled.bg-placeholder {
+  background: #86909c;
+}
+
+button[disabled].disabled.bg-disabled {
+  background: #c9cdd4;
+}
+
+button[disabled].disabled.bg-line-strong {
+  background: #86909c;
+}
+
+button[disabled].disabled.bg-line-deep {
+  background: #c9cdd4;
+}
+
+button[disabled].disabled.bg-line-default {
+  background: #e5e6eb;
+}
+
+button[disabled].disabled.bg-line-light {
+  background: #f2f3f5;
+}
+
+button[disabled].disabled.bg-fill-strong {
+  background: #1d2129;
+}
+
+button[disabled].disabled.bg-fill-dark {
+  background: #c9cdd4;
+}
+
+button[disabled].disabled.bg-fill-deep {
+  background: #e5e6eb;
+}
+
+button[disabled].disabled.bg-fill-default {
+  background: #f2f3f5;
+}
+
+button[disabled].disabled.bg-fill-light {
+  background: #f7f8fa;
+}
+
+button[disabled].disabled.bg-primary-dark-1 {
+  background: #1e52d8;
+}
+
+button[disabled].disabled.bg-primary-light-1 {
+  background: #3e88fe;
+}
+
+button[disabled].disabled.bg-primary-light-2 {
+  background: #93beff;
+}
+
+button[disabled].disabled.bg-primary-light-3 {
+  background: #e8f3ff;
+}
+
+button[disabled].disabled.bg-success-dark-1 {
+  background: #009a29;
+}
+
+button[disabled].disabled.bg-success-light-1 {
+  background: #23c343;
+}
+
+button[disabled].disabled.bg-success-light-2 {
+  background: #7be188;
+}
+
+button[disabled].disabled.bg-success-light-3 {
+  background: #e8ffea;
+}
+
+button[disabled].disabled.bg-warnning-dark-1 {
+  background: #d25f00;
+}
+
+button[disabled].disabled.bg-warnning-light-1 {
+  background: #ff9a2e;
+}
+
+button[disabled].disabled.bg-warnning-light-2 {
+  background: #ffcf8b;
+}
+
+button[disabled].disabled.bg-warnning-light-3 {
+  background: #fff7e8;
+}
+
+button[disabled].disabled.bg-error-dark-1 {
+  background: #cb2634;
+}
+
+button[disabled].disabled.bg-error-light-1 {
+  background: #f76560;
+}
+
+button[disabled].disabled.bg-error-light-2 {
+  background: #fbaca3;
+}
+
+button[disabled].disabled.bg-error-light-3 {
+  background: #ffece8;
+}
+
+button[disabled].disabled.bg-blue-dark-1 {
+  background: #206ccf;
+}
+
+button[disabled].disabled.bg-blue-light-1 {
+  background: #57a9fb;
+}
+
+button[disabled].disabled.bg-blue-light-2 {
+  background: #9fd4fd;
+}
+
+button[disabled].disabled.bg-blue-light-3 {
+  background: #e8f7ff;
+}
+
+button[disabled].disabled.bg-purple-dark-1 {
+  background: #551db0;
+}
+
+button[disabled].disabled.bg-purple-light-1 {
+  background: #8d4eda;
+}
+
+button[disabled].disabled.bg-purple-light-2 {
+  background: #c396ed;
+}
+
+button[disabled].disabled.bg-purple-light-3 {
+  background: #f5e8ff;
+}
+
+button[disabled].disabled.bg-cyan-dark-1 {
+  background: #0aa5a8;
+}
+
+button[disabled].disabled.bg-cyan-light-1 {
+  background: #33d1c9;
+}
+
+button[disabled].disabled.bg-cyan-light-2 {
+  background: #86e8dd;
+}
+
+button[disabled].disabled.bg-cyan-light-3 {
+  background: #e8fffb;
+}
+
+button[disabled].disabled.bg-gold-dark-1 {
+  background: #cc9213;
+}
+
+button[disabled].disabled.bg-gold-light-1 {
+  background: #f9cc45;
+}
+
+button[disabled].disabled.bg-gold-light-2 {
+  background: #fce996;
+}
+
+button[disabled].disabled.bg-gold-light-3 {
+  background: #fffce8;
+}
+
+button[disabled].disabled.bg-white-dark-1 {
+  background: #e8f3ff;
+}
+
+button[disabled].disabled.bg-white-light-1 {
+  background: #ffffff;
+}
+
+button[disabled].disabled.bg-white-light-2 {
+  background: #93beff;
+}
+
+button[disabled].disabled.bg-white-light-3 {
+  background: #f7f8fa;
+}
+
+button[disabled].disabled.bg-black-dark-1 {
+  background: #000000;
+}
+
+button[disabled].disabled.bg-black-light-1 {
+  background: #000000;
+}
+
+button[disabled].disabled.bg-black-light-2 {
+  background: #000000;
+}
+
+button[disabled].disabled.bg-black-light-3 {
+  background: #000000;
+}
+
+/** 按钮禁用类-文字颜色, 注意使用时需要另加类名disabled */
+button[disabled].disabled.color-primary {
+  color: #176bfb;
+}
+
+button[disabled].disabled.color-success {
+  color: #00b42a;
+}
+
+button[disabled].disabled.color-warnning {
+  color: #fe7c00;
+}
+
+button[disabled].disabled.color-error {
+  color: #f53f3f;
+}
+
+button[disabled].disabled.color-blue {
+  color: #3491fa;
+}
+
+button[disabled].disabled.color-purple {
+  color: #722ed1;
+}
+
+button[disabled].disabled.color-cyan {
+  color: #0fc6c2;
+}
+
+button[disabled].disabled.color-gold {
+  color: #f7ba1e;
+}
+
+button[disabled].disabled.color-white {
+  color: #ffffff;
+}
+
+button[disabled].disabled.color-black {
+  color: #000000;
+}
+
+button[disabled].disabled.color-transparent {
+  color: transparent;
+}
+
+button[disabled].disabled.color-base {
+  color: #1d2129;
+}
+
+button[disabled].disabled.color-secondary {
+  color: #4e5969;
+}
+
+button[disabled].disabled.color-placeholder {
+  color: #86909c;
+}
+
+button[disabled].disabled.color-disabled {
+  color: #c9cdd4;
+}
+
+button[disabled].disabled.color-line-strong {
+  color: #86909c;
+}
+
+button[disabled].disabled.color-line-deep {
+  color: #c9cdd4;
+}
+
+button[disabled].disabled.color-line-default {
+  color: #e5e6eb;
+}
+
+button[disabled].disabled.color-line-light {
+  color: #f2f3f5;
+}
+
+button[disabled].disabled.color-fill-strong {
+  color: #1d2129;
+}
+
+button[disabled].disabled.color-fill-dark {
+  color: #c9cdd4;
+}
+
+button[disabled].disabled.color-fill-deep {
+  color: #e5e6eb;
+}
+
+button[disabled].disabled.color-fill-default {
+  color: #f2f3f5;
+}
+
+button[disabled].disabled.color-fill-light {
+  color: #f7f8fa;
+}
+
+button[disabled].disabled.color-primary-dark-1 {
+  color: #1e52d8;
+}
+
+button[disabled].disabled.color-primary-light-1 {
+  color: #3e88fe;
+}
+
+button[disabled].disabled.color-primary-light-2 {
+  color: #93beff;
+}
+
+button[disabled].disabled.color-primary-light-3 {
+  color: #e8f3ff;
+}
+
+button[disabled].disabled.color-success-dark-1 {
+  color: #009a29;
+}
+
+button[disabled].disabled.color-success-light-1 {
+  color: #23c343;
+}
+
+button[disabled].disabled.color-success-light-2 {
+  color: #7be188;
+}
+
+button[disabled].disabled.color-success-light-3 {
+  color: #e8ffea;
+}
+
+button[disabled].disabled.color-warnning-dark-1 {
+  color: #d25f00;
+}
+
+button[disabled].disabled.color-warnning-light-1 {
+  color: #ff9a2e;
+}
+
+button[disabled].disabled.color-warnning-light-2 {
+  color: #ffcf8b;
+}
+
+button[disabled].disabled.color-warnning-light-3 {
+  color: #fff7e8;
+}
+
+button[disabled].disabled.color-error-dark-1 {
+  color: #cb2634;
+}
+
+button[disabled].disabled.color-error-light-1 {
+  color: #f76560;
+}
+
+button[disabled].disabled.color-error-light-2 {
+  color: #fbaca3;
+}
+
+button[disabled].disabled.color-error-light-3 {
+  color: #ffece8;
+}
+
+button[disabled].disabled.color-blue-dark-1 {
+  color: #206ccf;
+}
+
+button[disabled].disabled.color-blue-light-1 {
+  color: #57a9fb;
+}
+
+button[disabled].disabled.color-blue-light-2 {
+  color: #9fd4fd;
+}
+
+button[disabled].disabled.color-blue-light-3 {
+  color: #e8f7ff;
+}
+
+button[disabled].disabled.color-purple-dark-1 {
+  color: #551db0;
+}
+
+button[disabled].disabled.color-purple-light-1 {
+  color: #8d4eda;
+}
+
+button[disabled].disabled.color-purple-light-2 {
+  color: #c396ed;
+}
+
+button[disabled].disabled.color-purple-light-3 {
+  color: #f5e8ff;
+}
+
+button[disabled].disabled.color-cyan-dark-1 {
+  color: #0aa5a8;
+}
+
+button[disabled].disabled.color-cyan-light-1 {
+  color: #33d1c9;
+}
+
+button[disabled].disabled.color-cyan-light-2 {
+  color: #86e8dd;
+}
+
+button[disabled].disabled.color-cyan-light-3 {
+  color: #e8fffb;
+}
+
+button[disabled].disabled.color-gold-dark-1 {
+  color: #cc9213;
+}
+
+button[disabled].disabled.color-gold-light-1 {
+  color: #f9cc45;
+}
+
+button[disabled].disabled.color-gold-light-2 {
+  color: #fce996;
+}
+
+button[disabled].disabled.color-gold-light-3 {
+  color: #fffce8;
+}
+
+button[disabled].disabled.color-white-dark-1 {
+  color: #e8f3ff;
+}
+
+button[disabled].disabled.color-white-light-1 {
+  color: #ffffff;
+}
+
+button[disabled].disabled.color-white-light-2 {
+  color: #93beff;
+}
+
+button[disabled].disabled.color-white-light-3 {
+  color: #f7f8fa;
+}
+
+button[disabled].disabled.color-black-dark-1 {
+  color: #000000;
+}
+
+button[disabled].disabled.color-black-light-1 {
+  color: #000000;
+}
+
+button[disabled].disabled.color-black-light-2 {
+  color: #000000;
+}
+
+button[disabled].disabled.color-black-light-3 {
+  color: #000000;
+}
+
+/*==============================================分割线==============================================*/
+/* 字体家族变量*/
+.font-regular {
+  font-family: 'PingFangSC-Regular', 'Noto Sans', 'San Francisco', 'Roboto';
+}
+
+.font-medium {
+  font-family: 'PingFangSC-Medium', 'Noto Sans', 'San Francisco', 'Roboto';
+}
+
+/*==============================================分割线==============================================*/
+/* 字体尺寸变量 */
+.font-desc {
+  font-size: 20rpx;
+}
+
+.font-secondary {
+  font-size: 24rpx;
+}
+
+.font-content {
+  font-size: 28rpx;
+}
+
+.font-title {
+  font-size: 30rpx;
+}
+
+.font-xt {
+  font-size: 34rpx;
+}
+
+.font-xxt {
+  font-size: 40rpx;
+}
+
+.font-xxxt {
+  font-size: 44rpx;
+}
+
+/*==============================================分割线==============================================*/
+/** 
+* 循环生成margin间距类 
+* 如mt-l，m开头即margin简写, t是top, l是$ui-padding-large
+* 故mt-l的意思即是: margin-top:  $ui-padding-large
+*/
+.mt-xxs {
+  margin-top: 8rpx;
+}
+
+.mt-xs {
+  margin-top: 12rpx;
+}
+
+.mt-s {
+  margin-top: 16rpx;
+}
+
+.mt-b {
+  margin-top: 24rpx;
+}
+
+.mt-l {
+  margin-top: 32rpx;
+}
+
+.mt-xl {
+  margin-top: 48rpx;
+}
+
+.mt-none {
+  margin-top: 0rpx;
+}
+
+.mr-xxs {
+  margin-right: 8rpx;
+}
+
+.mr-xs {
+  margin-right: 12rpx;
+}
+
+.mr-s {
+  margin-right: 16rpx;
+}
+
+.mr-b {
+  margin-right: 24rpx;
+}
+
+.mr-l {
+  margin-right: 32rpx;
+}
+
+.mr-xl {
+  margin-right: 48rpx;
+}
+
+.mr-none {
+  margin-right: 0rpx;
+}
+
+.mb-xxs {
+  margin-bottom: 8rpx;
+}
+
+.mb-xs {
+  margin-bottom: 12rpx;
+}
+
+.mb-s {
+  margin-bottom: 16rpx;
+}
+
+.mb-b {
+  margin-bottom: 24rpx;
+}
+
+.mb-l {
+  margin-bottom: 32rpx;
+}
+
+.mb-xl {
+  margin-bottom: 48rpx;
+}
+
+.mb-none {
+  margin-bottom: 0rpx;
+}
+
+.ml-xxs {
+  margin-left: 8rpx;
+}
+
+.ml-xs {
+  margin-left: 12rpx;
+}
+
+.ml-s {
+  margin-left: 16rpx;
+}
+
+.ml-b {
+  margin-left: 24rpx;
+}
+
+.ml-l {
+  margin-left: 32rpx;
+}
+
+.ml-xl {
+  margin-left: 48rpx;
+}
+
+.ml-none {
+  margin-left: 0rpx;
+}
+
+/** 
+* 循环生成padding间距类， 
+* 如pt-l 即 padding-top:  $ui-padding-large
+*/
+.pt-xxs {
+  padding-top: 8rpx;
+}
+
+.pt-xs {
+  padding-top: 12rpx;
+}
+
+.pt-s {
+  padding-top: 16rpx;
+}
+
+.pt-b {
+  padding-top: 24rpx;
+}
+
+.pt-l {
+  padding-top: 32rpx;
+}
+
+.pt-xl {
+  padding-top: 48rpx;
+}
+
+.pt-none {
+  padding-top: 0rpx;
+}
+
+.pr-xxs {
+  padding-right: 8rpx;
+}
+
+.pr-xs {
+  padding-right: 12rpx;
+}
+
+.pr-s {
+  padding-right: 16rpx;
+}
+
+.pr-b {
+  padding-right: 24rpx;
+}
+
+.pr-l {
+  padding-right: 32rpx;
+}
+
+.pr-xl {
+  padding-right: 48rpx;
+}
+
+.pr-none {
+  padding-right: 0rpx;
+}
+
+.pb-xxs {
+  padding-bottom: 8rpx;
+}
+
+.pb-xs {
+  padding-bottom: 12rpx;
+}
+
+.pb-s {
+  padding-bottom: 16rpx;
+}
+
+.pb-b {
+  padding-bottom: 24rpx;
+}
+
+.pb-l {
+  padding-bottom: 32rpx;
+}
+
+.pb-xl {
+  padding-bottom: 48rpx;
+}
+
+.pb-none {
+  padding-bottom: 0rpx;
+}
+
+.pl-xxs {
+  padding-left: 8rpx;
+}
+
+.pl-xs {
+  padding-left: 12rpx;
+}
+
+.pl-s {
+  padding-left: 16rpx;
+}
+
+.pl-b {
+  padding-left: 24rpx;
+}
+
+.pl-l {
+  padding-left: 32rpx;
+}
+
+.pl-xl {
+  padding-left: 48rpx;
+}
+
+.pl-none {
+  padding-left: 0rpx;
+}
+
+/** 
+* 循环生成margin间距类
+* 如mtb-l，即margin-top和margin-bottom都是$ui-padding-large
+* mlr是同理
+*/
+.mtb-xxs {
+  margin-top: 8rpx;
+  margin-bottom: 8rpx;
+}
+
+.mtb-xs {
+  margin-top: 12rpx;
+  margin-bottom: 12rpx;
+}
+
+.mtb-s {
+  margin-top: 16rpx;
+  margin-bottom: 16rpx;
+}
+
+.mtb-b {
+  margin-top: 24rpx;
+  margin-bottom: 24rpx;
+}
+
+.mtb-l {
+  margin-top: 32rpx;
+  margin-bottom: 32rpx;
+}
+
+.mtb-xl {
+  margin-top: 48rpx;
+  margin-bottom: 48rpx;
+}
+
+.mtb-none {
+  margin-top: 0rpx;
+  margin-bottom: 0rpx;
+}
+
+.mlr-xxs {
+  margin-left: 8rpx;
+  margin-right: 8rpx;
+}
+
+.mlr-xs {
+  margin-left: 12rpx;
+  margin-right: 12rpx;
+}
+
+.mlr-s {
+  margin-left: 16rpx;
+  margin-right: 16rpx;
+}
+
+.mlr-b {
+  margin-left: 24rpx;
+  margin-right: 24rpx;
+}
+
+.mlr-l {
+  margin-left: 32rpx;
+  margin-right: 32rpx;
+}
+
+.mlr-xl {
+  margin-left: 48rpx;
+  margin-right: 48rpx;
+}
+
+.mlr-none {
+  margin-left: 0rpx;
+  margin-right: 0rpx;
+}
+
+/** 
+* 循环生成padding间距类
+* 如ptb-l，即padding-top和padding-bottom都是$ui-padding-large
+* plr是同理
+*/
+.ptb-xxs {
+  padding-top: 8rpx;
+  padding-bottom: 8rpx;
+}
+
+.ptb-xs {
+  padding-top: 12rpx;
+  padding-bottom: 12rpx;
+}
+
+.ptb-s {
+  padding-top: 16rpx;
+  padding-bottom: 16rpx;
+}
+
+.ptb-b {
+  padding-top: 24rpx;
+  padding-bottom: 24rpx;
+}
+
+.ptb-l {
+  padding-top: 32rpx;
+  padding-bottom: 32rpx;
+}
+
+.ptb-xl {
+  padding-top: 48rpx;
+  padding-bottom: 48rpx;
+}
+
+.ptb-none {
+  padding-top: 0rpx;
+  padding-bottom: 0rpx;
+}
+
+.plr-xxs {
+  padding-left: 8rpx;
+  padding-right: 8rpx;
+}
+
+.plr-xs {
+  padding-left: 12rpx;
+  padding-right: 12rpx;
+}
+
+.plr-s {
+  padding-left: 16rpx;
+  padding-right: 16rpx;
+}
+
+.plr-b {
+  padding-left: 24rpx;
+  padding-right: 24rpx;
+}
+
+.plr-l {
+  padding-left: 32rpx;
+  padding-right: 32rpx;
+}
+
+.plr-xl {
+  padding-left: 48rpx;
+  padding-right: 48rpx;
+}
+
+.plr-none {
+  padding-left: 0rpx;
+  padding-right: 0rpx;
+}
+
+.p-all-xxs {
+  padding: 8rpx;
+}
+
+.p-all-xs {
+  padding: 12rpx;
+}
+
+.p-all-s {
+  padding: 16rpx;
+}
+
+.p-all-b {
+  padding: 24rpx;
+}
+
+.p-all-l {
+  padding: 32rpx;
+}
+
+.p-all-xl {
+  padding: 48rpx;
+}
+
+.p-all-none {
+  padding: 0rpx;
+}
+
+/*==============================================分割线==============================================*/
+/* 高度类  */
+.height-cell-small {
+  height: 64rpx;
+}
+
+.height-cell-default {
+  height: 88rpx;
+}
+
+.height-cell-large {
+  height: 120rpx;
+}
+
+.height-button-default {
+  height: 96rpx;
+}
+
+.height-button-small {
+  height: 80rpx;
+}
+
+.height-button-xs {
+  height: 72rpx;
+}
+
+.height-button-xxs {
+  height: 64rpx;
+}
+
+/*==============================================分割线==============================================*/
+/** radius 类 */
+.radius-none {
+  border-radius: 0rpx;
+}
+
+.radius-round {
+  border-radius: 50%;
+}
+
+.radius-small {
+  border-radius: 8rpx;
+}
+
+.radius-default {
+  border-radius: 12rpx;
+}
+
+.radius-large {
+  border-radius: 20rpx;
+}
+
+.radius-xl {
+  border-radius: 32rpx;
+}
+
+.radius-cell-default {
+  border-radius: 44rpx;
+}
+
+.radius-cell-large {
+  border-radius: 60rpx;
+}
+
+.radius-button-default {
+  border-radius: 48rpx;
+}
+
+.radius-button-small {
+  border-radius: 40rpx;
+}
+
+.radius-button-xs {
+  border-radius: 36rpx;
+}
+
+.radius-button-xxs {
+  border-radius: 32rpx;
+}
+
+/** 阴影类 */
+.shadow {
+  box-shadow: 0px 0px 20px 0px rgba(29, 33, 41, 0.05);
+}
+
+/** radius方向类, 需要配合原子类使用 */
+.radius-top {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.radius-bottom {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/** 行高类 */

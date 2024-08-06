@@ -1,0 +1,232 @@
+/**
+ * @Author      : zouwq
+ * @Date        : 2022-07-26
+ * @Description : 业务样式
+*/
+
+@import './common.scss';
+@import './iconfont.css';
+
+// 设置整个项目的背景色、字体大小、字体颜色
+// page {
+//   background-color: $zy-bg-color;
+//   color: $zy-middle-color3;
+//   font-size: $zy-font-size30;
+// }
+
+// 字体大小
+.text-size24 {
+  font-size: $zy-font-size24;
+}
+
+.text-size28 {
+  font-size: $zy-font-size28;
+}
+
+.text-size30 {
+  font-size: $zy-font-size30;
+}
+
+.text-size34 {
+  font-size: $zy-font-size34;
+}
+
+.text-size40 {
+  font-size: $zy-font-size40;
+}
+
+.text-size44 {
+  font-size: $zy-font-size44;
+}
+
+// 字体颜色
+.text-main-color {
+  color: $zy-main-color;
+}
+
+.text-color1 {
+  color: $zy-middle-color1;
+}
+
+.text-color2 {
+  color: $zy-middle-color2;
+}
+
+.text-color3 {
+  color: $zy-middle-color3;
+}
+
+.text-color4 {
+  color: $zy-middle-color4;
+}
+
+.text-color5 {
+  color: $zy-middle-color5;
+}
+
+.text-color6 {
+  color: $zy-middle-color6;
+}
+
+.text-color7 {
+  color: $zy-middle-color7;
+}
+
+// 用户卡片
+.user-card {
+  display: flex;
+  align-items: center;
+  padding: 20rpx 30rpx;
+  background: $zy-middle-color2;
+  line-height: 48rpx;
+
+  .user-avatar {
+    width: 104rpx;
+    height: 104rpx;
+    border-radius: 50%;
+    margin-right: 30rpx;
+  }
+}
+
+.form-card {
+  padding: 0 30rpx;
+  margin: 24rpx 30rpx;
+  border-radius: 12rpx;
+  background: $zy-middle-color2;
+  font-size: $zy-font-size28;
+
+  .input-style {
+    height: 56rpx;
+    border-radius: 12rpx;
+    border: 1px solid $zy-main-color;
+    padding: 0 20rpx;
+    caret-color: $zy-main-color;
+  }
+}
+
+// 搜索框
+.search-box {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: $zy-middle-color2;
+  margin-bottom: 100rpx;
+}
+
+.item-card {
+  background: $zy-middle-color2;
+  border-radius: 12rpx;
+  margin-bottom: 20rpx;
+  padding: 20rpx 30rpx;
+}
+// 标签
+.zy-tag {
+  font-size: $zy-font-size24;
+  padding: 0 15rpx;
+  height: 40rpx;
+  display: flex;
+  align-items: center;
+  column-gap: 6rpx;
+  border-radius: 12rpx;
+
+  &--primary {
+    background: $zy-spare-color3;
+    color: $zy-main-color;
+  }
+
+  &--default {
+    background: $zy-middle-color7;
+    color: $zy-middle-color4;
+  }
+
+  &--warning {
+    background: rgba($color: $zy-spare-color6, $alpha: 10%);
+    color: $zy-spare-color6;
+  }
+}
+
+// 其他
+.hover-bg--gray {
+  background: rgba($color: $zy-middle-color7, $alpha: 50%);
+}
+
+.white-space--nowrap {
+  white-space: nowrap;
+}
+
+.zy-tips {
+  margin: 24rpx 30rpx;
+  font-size: $zy-font-size24;
+  color: $zy-middle-color5;
+
+  &--icon {
+    vertical-align: middle;
+    margin: 0 5rpx;
+  }
+}
+
+// 全局修改复选框样式
+checkbox .wx-checkbox-input,
+checkbox .uni-checkbox-input {
+  border-radius: 8rpx !important;
+}
+
+checkbox .wx-checkbox-input.wx-checkbox-input-checked,
+checkbox .uni-checkbox-input.uni-checkbox-input-checked {
+  border: none !important;
+  background: $zy-main-color !important;
+  color: $zy-middle-color2 !important;
+}
+
+// 全局修改uni-ui样式
+.uni-searchbar__box {
+  justify-content: unset !important;
+}
+
+.uni-table-th {
+  color: $zy-middle-color3 !important;
+  font-size: $zy-font-size28 !important;
+  font-weight: 500 !important;
+  border-bottom: 1rpx solid $zy-middle-color8 !important;
+  white-space: nowrap;
+  padding: 12px 5px !important;
+}
+
+.uni-table-td {
+  color: $zy-middle-color3 !important;
+  font-size: $zy-font-size28 !important;
+  border-bottom: 1rpx solid $zy-middle-color8 !important;
+  white-space: nowrap;
+  padding: 8px 5px !important;
+}
+
+.uni-table-tr:last-child .uni-table-td {
+  border: none !important;
+}
+
+// 全局修改progress样式
+.progress-green .uni-progress-inner-bar,
+.progress-green .wx-progress-inner-bar {
+  border-radius: 4rpx !important;
+  background: linear-gradient(90deg, #7be188 0%, #00b42a 100%);
+}
+
+.progress-orange .uni-progress-inner-bar,
+.progress-orange .wx-progress-inner-bar {
+  border-radius: 4rpx !important;
+  background: linear-gradient(90deg, #fcc59f 0%, #f77234 100%);
+}
+
+.progress-red .uni-progress-inner-bar,
+.progress-red .wx-progress-inner-bar {
+  border-radius: 4rpx !important;
+  background: linear-gradient(90deg, #fbaca3 0%, #f53f3f 100%);
+}
+
+.progress-blue .uni-progress-inner-bar,
+.progress-blue .wx-progress-inner-bar {
+  border-radius: 4rpx !important;
+  background: linear-gradient(90deg, #86e8dd 0%, #0fc6c2 100%);
+}

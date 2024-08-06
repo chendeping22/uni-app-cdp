@@ -1,0 +1,15 @@
+@import './_typography.scss';
+
+//=== reset ===//
+page {
+  background-color: $ui-color-page-primary;
+  color: $u-main-color;
+  font-size: $uni-font-size-base;
+}
+
+//=== typography ===//
+@each $key, $list in $typography-data {
+  .#{$key} {
+    @include make-typography-style($key);
+  }
+}

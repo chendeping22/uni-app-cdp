@@ -1,0 +1,136 @@
+.new-edit-tasks {
+  padding: $ui-gap-large;
+  box-sizing: border-box;
+  .image {
+    width: $ui-gap-xl;
+    height: $ui-gap-xl;
+    margin-right: $ui-gap-xl;
+  }
+
+  .image-content {
+    padding-bottom: $ui-gap-small;
+    display: flex;
+    flex-wrap: wrap;
+    .image-list {
+      display: inline-block;
+      position: relative;
+      margin: $ui-gap-default $ui-gap-default 0 0;
+      width: 96rpx;
+      height: 96rpx;
+      border: 1rpx solid $ui-color-line-default;
+      border-radius: $ui-radius-small;
+      .clear-item {
+        position: absolute;
+        top: -18rpx;
+        right: -18rpx;
+        display: flex;
+        width: 36rpx;
+        height: 36rpx;
+        .clear-icon {
+          margin: auto;
+          width: 30rpx;
+          height: 30rpx;
+        }
+      }
+      .image-item {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .content-input {
+    width: 100%;
+    margin-bottom: $ui-gap-default;
+    padding: $ui-gap-large;
+    background: $ui-color-white;
+    box-shadow: 0 0 20rpx 0 rgba(24, 25, 68, 0.05);
+    border-radius: $ui-radius-xl;
+    box-sizing: border-box;
+    .input,
+    .textarea {
+      width: 100%;
+      font-size: $ui-font-size-title;
+      height: 100%;
+    }
+
+    .input {
+      font-weight: 600;
+    }
+    .textarea-placeholder,
+    .input-placeholder {
+      color: $ui-color-placeholder;
+    }
+    .title-content {
+      padding: 0 0 $ui-gap-default 0;
+      border-bottom: 1rpx solid $ui-color-line-default;
+    }
+    .textarea-content {
+      padding: $ui-gap-default 0 $ui-gap-default 0;
+      height: 300rpx;
+    }
+  }
+
+  .tooltip-content {
+    display: flex;
+    justify-content: flex-end;
+    .description {
+      display: block;
+      font-size: $ui-font-size-secondary;
+      color: $ui-color-placeholder;
+      line-height: 44rpx;
+    }
+  }
+  .pic {
+    width: 100%;
+    margin-bottom: $ui-gap-default;
+    padding: $ui-gap-large;
+    background: $ui-color-white;
+    box-shadow: 0 0 20rpx 0 rgba(24, 25, 68, 0.05);
+    border-radius: $ui-radius-xl;
+    box-sizing: border-box;
+
+    &-title {
+      text-align: left;
+      font-size: 30rpx;
+      color: #1d2129;
+      font-weight: 400;
+    }
+  }
+
+  ::v-deep {
+    .page-body {
+      padding: $ui-gap-large;
+      background-color: $ui-color-fill-default;
+    }
+  }
+}
+.list-content {
+  display: block;
+  margin-bottom: $ui-gap-default;
+}
+
+.gray-text {
+  color: $ui-color-secondary;
+}
+.disabled-text {
+  color: $ui-color-disabled;
+}
+.submit-content {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: $ui-gap-default 0 68rpx 0;
+  background: $ui-color-white;
+  .submit-btn {
+    display: block;
+    width: 100%;
+  }
+}
+.publish-btn {
+  padding: 0rpx 32rpx;
+}

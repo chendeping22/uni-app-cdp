@@ -1,0 +1,1221 @@
+@charset "UTF-8";
+/*==============================================分割线==============================================*/
+/** flex布局类 */
+.flex-plain {
+  display: flex;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-inline {
+  display: inline-flex;
+  align-items: center;
+}
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-column-plain {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-left {
+  justify-content: flex-start;
+}
+
+.flex-right {
+  justify-content: flex-end;
+}
+
+.flex-start,
+.flex-top {
+  align-items: flex-start;
+}
+
+.flex-end,
+.flex-bottom {
+  align-items: flex-end;
+}
+
+.no-shrink {
+  /** 不能压缩 */
+  flex-shrink: 0;
+}
+
+.flex-stretch,
+.flex-grow {
+  /** 填满剩余空间 */
+  flex-grow: 1;
+}
+
+/*==============================================分割线==============================================*/
+/** 文本类 */
+.text,
+.text-break {
+  word-break: break-all;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-nowrap {
+  white-space: nowrap;
+}
+
+.text-pre {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.text-ellipse {
+  text-overflow: ellipsis;
+  word-break: break-all;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.text-ellipsis-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
+
+.text-ellipsis-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
+
+/*==============================================分割线==============================================*/
+.border,
+.border-solid {
+  border-width: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+}
+
+.border-none,
+.border-unset {
+  border: none;
+  box-sizing: border-box;
+}
+.border-none:after,
+.border-unset:after {
+  border: none;
+}
+
+.border-dash {
+  border-width: 1px;
+  border-style: dashed;
+  box-sizing: border-box;
+}
+
+.border-dotted {
+  border-width: 1px;
+  border-style: dotted;
+  box-sizing: border-box;
+}
+
+.border-top {
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+
+.border-right {
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+.border-bottom {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.border-left {
+  border-left-width: 1px;
+  border-left-style: solid;
+}
+
+.border-thick {
+  border-width: 2rpx;
+}
+
+.border-thicker {
+  border-width: 4rpx;
+}
+
+.border-thickest {
+  border-width: 8rpx;
+}
+
+.box-border {
+  box-sizing: border-box;
+}
+
+.box-content {
+  box-sizing: content-box;
+}
+
+/*==============================================分割线==============================================*/
+/** scroll类 */
+.scroll,
+.scroll-auto {
+  overflow: auto;
+}
+
+.scroll-x {
+  overflow-x: auto;
+}
+
+.scroll-y {
+  overflow-y: auto;
+}
+
+.scroll-hidden {
+  overflow: hidden;
+}
+
+/*==============================================分割线==============================================*/
+/** position 定位类 */
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  z-index: 9;
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  background: #fff;
+}
+
+/*==============================================分割线==============================================*/
+/** display类 */
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+/*==============================================分割线==============================================*/
+/** float类 */
+.float,
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-none {
+  float: none;
+}
+
+.float-clear:before,
+.float-clear:after {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+/*==============================================分割线==============================================*/
+.bold {
+  font-weight: 600;
+}
+
+.no-bold {
+  font-weight: 400;
+}
+
+/*==============================================分割线==============================================*/
+/** icon尺寸类, 从12到252 */
+.icon-12 {
+  width: 12rpx;
+  height: 12rpx;
+}
+
+.icon-16 {
+  width: 16rpx;
+  height: 16rpx;
+}
+
+.icon-20 {
+  width: 20rpx;
+  height: 20rpx;
+}
+
+.icon-24 {
+  width: 24rpx;
+  height: 24rpx;
+}
+
+.icon-28 {
+  width: 28rpx;
+  height: 28rpx;
+}
+
+.icon-32 {
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.icon-36 {
+  width: 36rpx;
+  height: 36rpx;
+}
+
+.icon-40 {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.icon-44 {
+  width: 44rpx;
+  height: 44rpx;
+}
+
+.icon-48 {
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.icon-52 {
+  width: 52rpx;
+  height: 52rpx;
+}
+
+.icon-56 {
+  width: 56rpx;
+  height: 56rpx;
+}
+
+.icon-60 {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.icon-64 {
+  width: 64rpx;
+  height: 64rpx;
+}
+
+.icon-68 {
+  width: 68rpx;
+  height: 68rpx;
+}
+
+.icon-72 {
+  width: 72rpx;
+  height: 72rpx;
+}
+
+.icon-76 {
+  width: 76rpx;
+  height: 76rpx;
+}
+
+.icon-80 {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.icon-84 {
+  width: 84rpx;
+  height: 84rpx;
+}
+
+.icon-88 {
+  width: 88rpx;
+  height: 88rpx;
+}
+
+.icon-92 {
+  width: 92rpx;
+  height: 92rpx;
+}
+
+.icon-96 {
+  width: 96rpx;
+  height: 96rpx;
+}
+
+.icon-100 {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.icon-104 {
+  width: 104rpx;
+  height: 104rpx;
+}
+
+.icon-108 {
+  width: 108rpx;
+  height: 108rpx;
+}
+
+.icon-112 {
+  width: 112rpx;
+  height: 112rpx;
+}
+
+.icon-116 {
+  width: 116rpx;
+  height: 116rpx;
+}
+
+.icon-120 {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.icon-124 {
+  width: 124rpx;
+  height: 124rpx;
+}
+
+.icon-128 {
+  width: 128rpx;
+  height: 128rpx;
+}
+
+.icon-132 {
+  width: 132rpx;
+  height: 132rpx;
+}
+
+.icon-136 {
+  width: 136rpx;
+  height: 136rpx;
+}
+
+.icon-140 {
+  width: 140rpx;
+  height: 140rpx;
+}
+
+.icon-144 {
+  width: 144rpx;
+  height: 144rpx;
+}
+
+.icon-148 {
+  width: 148rpx;
+  height: 148rpx;
+}
+
+.icon-152 {
+  width: 152rpx;
+  height: 152rpx;
+}
+
+.icon-156 {
+  width: 156rpx;
+  height: 156rpx;
+}
+
+.icon-160 {
+  width: 160rpx;
+  height: 160rpx;
+}
+
+.icon-164 {
+  width: 164rpx;
+  height: 164rpx;
+}
+
+.icon-168 {
+  width: 168rpx;
+  height: 168rpx;
+}
+
+.icon-172 {
+  width: 172rpx;
+  height: 172rpx;
+}
+
+.icon-176 {
+  width: 176rpx;
+  height: 176rpx;
+}
+
+.icon-180 {
+  width: 180rpx;
+  height: 180rpx;
+}
+
+.icon-184 {
+  width: 184rpx;
+  height: 184rpx;
+}
+
+.icon-188 {
+  width: 188rpx;
+  height: 188rpx;
+}
+
+.icon-192 {
+  width: 192rpx;
+  height: 192rpx;
+}
+
+.icon-196 {
+  width: 196rpx;
+  height: 196rpx;
+}
+
+.icon-200 {
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.icon-204 {
+  width: 204rpx;
+  height: 204rpx;
+}
+
+.icon-208 {
+  width: 208rpx;
+  height: 208rpx;
+}
+
+.icon-212 {
+  width: 212rpx;
+  height: 212rpx;
+}
+
+.icon-216 {
+  width: 216rpx;
+  height: 216rpx;
+}
+
+.icon-220 {
+  width: 220rpx;
+  height: 220rpx;
+}
+
+.icon-224 {
+  width: 224rpx;
+  height: 224rpx;
+}
+
+.icon-228 {
+  width: 228rpx;
+  height: 228rpx;
+}
+
+.icon-232 {
+  width: 232rpx;
+  height: 232rpx;
+}
+
+.icon-236 {
+  width: 236rpx;
+  height: 236rpx;
+}
+
+.icon-240 {
+  width: 240rpx;
+  height: 240rpx;
+}
+
+.icon-244 {
+  width: 244rpx;
+  height: 244rpx;
+}
+
+/** 高度和宽度类, 从4到240 */
+.h-4 {
+  height: 4rpx;
+}
+
+.h-8 {
+  height: 8rpx;
+}
+
+.h-12 {
+  height: 12rpx;
+}
+
+.h-16 {
+  height: 16rpx;
+}
+
+.h-20 {
+  height: 20rpx;
+}
+
+.h-24 {
+  height: 24rpx;
+}
+
+.h-28 {
+  height: 28rpx;
+}
+
+.h-32 {
+  height: 32rpx;
+}
+
+.h-36 {
+  height: 36rpx;
+}
+
+.h-40 {
+  height: 40rpx;
+}
+
+.h-44 {
+  height: 44rpx;
+}
+
+.h-48 {
+  height: 48rpx;
+}
+
+.h-52 {
+  height: 52rpx;
+}
+
+.h-56 {
+  height: 56rpx;
+}
+
+.h-60 {
+  height: 60rpx;
+}
+
+.h-64 {
+  height: 64rpx;
+}
+
+.h-68 {
+  height: 68rpx;
+}
+
+.h-72 {
+  height: 72rpx;
+}
+
+.h-76 {
+  height: 76rpx;
+}
+
+.h-80 {
+  height: 80rpx;
+}
+
+.h-84 {
+  height: 84rpx;
+}
+
+.h-88 {
+  height: 88rpx;
+}
+
+.h-92 {
+  height: 92rpx;
+}
+
+.h-96 {
+  height: 96rpx;
+}
+
+.h-100 {
+  height: 100rpx;
+}
+
+.h-104 {
+  height: 104rpx;
+}
+
+.h-108 {
+  height: 108rpx;
+}
+
+.h-112 {
+  height: 112rpx;
+}
+
+.h-116 {
+  height: 116rpx;
+}
+
+.h-120 {
+  height: 120rpx;
+}
+
+.h-124 {
+  height: 124rpx;
+}
+
+.h-128 {
+  height: 128rpx;
+}
+
+.h-132 {
+  height: 132rpx;
+}
+
+.h-136 {
+  height: 136rpx;
+}
+
+.h-140 {
+  height: 140rpx;
+}
+
+.h-144 {
+  height: 144rpx;
+}
+
+.h-148 {
+  height: 148rpx;
+}
+
+.h-152 {
+  height: 152rpx;
+}
+
+.h-156 {
+  height: 156rpx;
+}
+.h-160 {
+  height: 160rpx;
+}
+
+.h-164 {
+  height: 164rpx;
+}
+
+.h-168 {
+  height: 168rpx;
+}
+
+.h-172 {
+  height: 172rpx;
+}
+
+.h-176 {
+  height: 176rpx;
+}
+
+.h-180 {
+  height: 180rpx;
+}
+
+.h-184 {
+  height: 184rpx;
+}
+
+.h-188 {
+  height: 188rpx;
+}
+
+.h-192 {
+  height: 192rpx;
+}
+
+.h-196 {
+  height: 196rpx;
+}
+
+.h-200 {
+  height: 200rpx;
+}
+
+.h-204 {
+  height: 204rpx;
+}
+
+.h-208 {
+  height: 208rpx;
+}
+
+.h-212 {
+  height: 212rpx;
+}
+
+.h-216 {
+  height: 216rpx;
+}
+
+.h-220 {
+  height: 220rpx;
+}
+
+.h-224 {
+  height: 224rpx;
+}
+
+.h-228 {
+  height: 228rpx;
+}
+
+.h-232 {
+  height: 232rpx;
+}
+
+.h-236 {
+  height: 236rpx;
+}
+
+.h-240 {
+  height: 240rpx;
+}
+
+.w-4 {
+  width: 4rpx;
+}
+
+.w-8 {
+  width: 8rpx;
+}
+
+.w-12 {
+  width: 12rpx;
+}
+
+.w-16 {
+  width: 16rpx;
+}
+
+.w-20 {
+  width: 20rpx;
+}
+
+.w-24 {
+  width: 24rpx;
+}
+
+.w-28 {
+  width: 28rpx;
+}
+
+.w-32 {
+  width: 32rpx;
+}
+
+.w-36 {
+  width: 36rpx;
+}
+
+.w-40 {
+  width: 40rpx;
+}
+
+.w-44 {
+  width: 44rpx;
+}
+
+.w-48 {
+  width: 48rpx;
+}
+
+.w-52 {
+  width: 52rpx;
+}
+
+.w-56 {
+  width: 56rpx;
+}
+
+.w-60 {
+  width: 60rpx;
+}
+
+.w-64 {
+  width: 64rpx;
+}
+
+.w-68 {
+  width: 68rpx;
+}
+
+.w-72 {
+  width: 72rpx;
+}
+
+.w-76 {
+  width: 76rpx;
+}
+
+.w-80 {
+  width: 80rpx;
+}
+
+.w-84 {
+  width: 84rpx;
+}
+
+.w-88 {
+  width: 88rpx;
+}
+
+.w-92 {
+  width: 92rpx;
+}
+
+.w-96 {
+  width: 96rpx;
+}
+
+.w-100 {
+  width: 100rpx;
+}
+
+.w-104 {
+  width: 104rpx;
+}
+
+.w-108 {
+  width: 108rpx;
+}
+
+.w-112 {
+  width: 112rpx;
+}
+
+.w-116 {
+  width: 116rpx;
+}
+
+.w-120 {
+  width: 120rpx;
+}
+
+.w-124 {
+  width: 124rpx;
+}
+
+.w-128 {
+  width: 128rpx;
+}
+
+.w-132 {
+  width: 132rpx;
+}
+
+.w-136 {
+  width: 136rpx;
+}
+
+.w-140 {
+  width: 140rpx;
+}
+
+.w-144 {
+  width: 144rpx;
+}
+
+.w-148 {
+  width: 148rpx;
+}
+
+.w-152 {
+  width: 152rpx;
+}
+
+.w-156 {
+  width: 156rpx;
+}
+
+.w-160 {
+  width: 160rpx;
+}
+
+.w-164 {
+  width: 164rpx;
+}
+
+.w-168 {
+  width: 168rpx;
+}
+
+.w-172 {
+  width: 172rpx;
+}
+
+.w-176 {
+  width: 176rpx;
+}
+
+.w-180 {
+  width: 180rpx;
+}
+
+.w-184 {
+  width: 184rpx;
+}
+
+.w-188 {
+  width: 188rpx;
+}
+
+.w-192 {
+  width: 192rpx;
+}
+
+.w-196 {
+  width: 196rpx;
+}
+
+.w-200 {
+  width: 200rpx;
+}
+
+.w-204 {
+  width: 204rpx;
+}
+
+.w-208 {
+  width: 208rpx;
+}
+
+.w-212 {
+  width: 212rpx;
+}
+
+.w-216 {
+  width: 216rpx;
+}
+
+.w-220 {
+  width: 220rpx;
+}
+
+.w-224 {
+  width: 224rpx;
+}
+
+.w-228 {
+  width: 228rpx;
+}
+
+.w-232 {
+  width: 232rpx;
+}
+
+.w-236 {
+  width: 236rpx;
+}
+
+.w-240 {
+  width: 240rpx;
+}
+
+/*==============================================分割线==============================================*/
+.lh-0 {
+  line-height: 1;
+}
+
+.lh-1 {
+  line-height: 1.1;
+}
+
+.lh-2 {
+  line-height: 1.2;
+}
+
+.lh-3 {
+  line-height: 1.3;
+}
+
+.lh-4 {
+  line-height: 1.4;
+}
+
+.lh-5 {
+  line-height: 1.5;
+}
+
+.lh-6 {
+  line-height: 1.6;
+}
+
+.lh-7 {
+  line-height: 1.7;
+}
+
+.lh-8 {
+  line-height: 1.8;
+}
+
+.lh-9 {
+  line-height: 1.9;
+}
+
+.lh-10 {
+  line-height: 2;
+}
+
+.lh-none {
+  line-height: 1;
+}
+
+/*==============================================分割线==============================================*/
+.spin {
+  animation: spin 1.5s linear infinite;
+}
+
+/*==============================================分割线==============================================*/
+/** 宫格宽度, col-1, col-2, ..., col-24 */
+.col-1 {
+  width: 4.1666666667%;
+}
+
+.col-2 {
+  width: 8.3333333333%;
+}
+
+.col-3 {
+  width: 12.5%;
+}
+
+.col-4 {
+  width: 16.6666666667%;
+}
+
+.col-5 {
+  width: 20.8333333333%;
+}
+
+.col-6 {
+  width: 25%;
+}
+
+.col-7 {
+  width: 29.1666666667%;
+}
+
+.col-8 {
+  width: 33.3333333333%;
+}
+
+.col-9 {
+  width: 37.5%;
+}
+
+.col-10 {
+  width: 41.6666666667%;
+}
+
+.col-11 {
+  width: 45.8333333333%;
+}
+
+.col-12 {
+  width: 50%;
+}
+
+.col-13 {
+  width: 54.1666666667%;
+}
+
+.col-14 {
+  width: 58.3333333333%;
+}
+
+.col-15 {
+  width: 62.5%;
+}
+
+.col-16 {
+  width: 66.6666666667%;
+}
+
+.col-17 {
+  width: 70.8333333333%;
+}
+
+.col-18 {
+  width: 75%;
+}
+
+.col-19 {
+  width: 79.1666666667%;
+}
+
+.col-20 {
+  width: 83.3333333333%;
+}
+
+.col-21 {
+  width: 87.5%;
+}
+
+.col-22 {
+  width: 91.6666666667%;
+}
+
+.col-23 {
+  width: 95.8333333333%;
+}
+
+.col-24 {
+  width: 100%;
+}
+
+/*==============================================分割线==============================================*/
+/** 其它, 具有业务性的 */
+.w100 {
+  width: 100%;
+}
+
+.h100 {
+  height: 100%;
+}

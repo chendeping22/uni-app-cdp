@@ -1,0 +1,83 @@
+$textDefaultColor: rgba(0, 0, 0, 0.88);
+$textLabelColor: rgba(0, 0, 0, 0.65);
+$textSecondaryColor: rgba(0, 0, 0, 0.45);
+$colorSuccessBase: #52c41a;
+$colorPrimaryBase: #1677ff;
+$colorWarningBase: #faad14;
+$colorErrorBase: #ff4d4f;
+$colorFillBase: rgba(0, 0, 0, 0.15);
+$colorWhite: #ffffff;
+$colorPrimaryLightBg: #e6f4ff;
+$colorSuccessLightBg: #f6ffed;
+$colorWarningLightBg: #fffbe6;
+$borderColor: rgba(0, 0, 0, 0.06);
+$fillDefaultColor: rgba(0, 0, 0, 0.04);
+$boxShadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+$fillLightColor: rgba(0, 0, 0, 0.02);
+
+.text-default {
+  color: $textDefaultColor;
+}
+
+.text-secondary {
+  color: $textSecondaryColor;
+}
+
+.text-white {
+  color: $colorWhite;
+}
+
+.color-success-base {
+  color: $colorSuccessBase;
+}
+
+.color-primary-base {
+  color: $colorPrimaryBase;
+}
+
+.color-warning-base {
+  color: $colorWarningBase;
+}
+
+.color-error-base {
+  color: $colorErrorBase;
+}
+
+.color-fill-bg {
+  background-color: $colorFillBase;
+}
+
+.color-fill-default {
+  color: $fillDefaultColor;
+}
+
+.color-primary-bg {
+  background-color: $colorPrimaryBase;
+}
+
+.color-success-bg {
+  background-color: $colorSuccessBase;
+}
+
+.color-error-bg {
+  background-color: $colorErrorBase;
+}
+
+.color-primary-light-bg {
+  background-color: $colorPrimaryLightBg;
+}
+.color-success-light-bg {
+  background-color: $colorSuccessLightBg;
+}
+.color-warning-bg {
+  background-color: $colorWarningBase;
+}
+.color-warning-light-bg {
+  background-color: $colorWarningLightBg;
+}
+
+.ellipse-txt {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

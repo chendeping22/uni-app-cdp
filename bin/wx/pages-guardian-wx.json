@@ -1,0 +1,276 @@
+{
+  "pages": [],
+  "subPackages": [
+    {
+      "root": "app-preprimary-education",
+      "pages": [
+        {
+          "path": "observation-record/index", // 观察记录
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "observation-record/view-picture", // 观察记录
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "observation-record/view-picture-detail", // 详情
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "observation-record/draft", // 草稿箱
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "observation-record/add", // 新建
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "observation-record/video-detail", // 详情
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "observation-record/pointsOfObservation", // 观察要点
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "everyday-task/index", // 每日健康-首页, 每日三检
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "一日三检",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "everyday-task/common/healthday-detail/index",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "everyday-task/guardian/index",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "everyday-task/widget/inspection-record/detail",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "everyday-task/common/heart-detail/index",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        // ============ 时光集 START ========================================
+        {
+          "path": "time-impression/index", // 时光集
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "时光集"
+          }
+        },
+        {
+          "path": "time-impression/add",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "时光集"
+          }
+        },
+        {
+          "path": "time-impression/view-picture",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "时光集"
+          }
+        },
+        {
+          "path": "time-impression/view-picture-detail",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "time-impression/operation-way",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "操作方式"
+          }
+        },
+        // ============ 时光集 END ========================================
+        {
+          "path": "clock-in/guardian/tasks/index",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTextStyle": "black"
+          }
+        },
+        {
+          "path": "clock-in/guardian/detail/index",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTextStyle": "black"
+          }
+        },
+        {
+          "path": "clock-in/guardian/task-calendar/index",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTextStyle": "black"
+          }
+        },
+        {
+          "path": "clock-in/guardian/punch/index",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTextStyle": "black"
+          }
+        },
+        {
+          "path": "clock-in/guardian/punch/result",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTextStyle": "black"
+          }
+        },
+        {
+          "path": "clock-in/index",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTextStyle": "black"
+          }
+        },
+        {
+          "path": "feed-medicine/index", // 服药登记-中转页
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "feed-medicine/guardian/index", // 喂药服务-首页
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "feed-medicine/guardian/add-detail/index", // 喂药服务-新增登记详情
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "feed-medicine/guardian/medicine-detail/index", // 喂药服务-详情
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "feed-medicine/guardian/sin-signature/index", // 喂药服务-签名
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        // ==================== 疾病管理 START ====================
+        {
+          "path": "disease-management/guardian/index",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "疾病管理"
+          }
+        },
+        {
+          "path": "disease-management/guardian/detail",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "疾病详情"
+          }
+        },
+        {
+          "path": "disease-management/guardian/track-operation",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "疾病跟踪"
+          }
+        },
+        {
+          "path": "disease-management/guardian/disease-selector",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "疾病症状"
+          }
+        }
+        // ==================== 疾病管理 END ====================
+      ]
+    },
+    {
+      "pages": [
+        {
+          "path": "curriculum-schedule/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "我的课表"
+          }
+        },
+        {
+          "path": "score-management/index",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "学生成绩",
+            "enablePullDownRefresh": true,
+            "onReachBottomDistance": 100
+          }
+        },
+        {
+          "path": "score-management/detail",
+          "style": {
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "学生成绩单"
+          }
+        }
+      ],
+      "root": "app-school-affairs"
+    }
+  ],
+  "tabBar": {
+    "borderStyle": "black",
+    "color": "#86909c",
+    "backgroundColor": "#FFFFFF",
+    "selectedColor": "#176bfb",
+    "list": [
+      {
+        "iconPath": "static/tabbar/icon_tabbar_home.png",
+        "selectedIconPath": "static/tabbar/icon_tabbar_home_selected.png",
+        "pagePath": "pages/workbench/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "static/tabbar/icon_tabbar_message.png",
+        "selectedIconPath": "static/tabbar/icon_tabbar_message_selected.png",
+        "pagePath": "pages/message/index",
+        "text": "消息"
+      },
+      {
+        "iconPath": "static/tabbar/icon_tabbar_mine.png",
+        "selectedIconPath": "static/tabbar/icon_tabbar_mine_selected.png",
+        "pagePath": "pages/mine/index",
+        "text": "我的"
+      }
+    ]
+  }
+}

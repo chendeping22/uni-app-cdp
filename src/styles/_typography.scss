@@ -1,0 +1,140 @@
+@use 'sass:map';
+@use 'sass:list';
+
+@import './_functions.scss';
+@import './_variables.scss';
+
+/** Typography */
+
+$large-title-font-size: 34px;
+$large-title-line-height: 41px;
+$title-1-font-size: 28px;
+$title-1-line-height: 34px;
+$title-2-font-size: 22px;
+$title-2-line-height: 28px;
+$title-3-font-size: 20px;
+$title-3-line-height: 26px;
+$headline-font-size: 16px;
+$headline-line-height: 24px;
+$body-font-size: 16px;
+$body-line-height: 24px;
+$callout-font-size: 16px;
+$callout-line-height: 22px;
+$subheadline-font-size: 15px;
+$subheadline-line-height: 20px;
+$footnote-font-size: 13px;
+$footnote-line-height: 18px;
+$caption-1-font-size: 12px;
+$caption-1-line-height: 16px;
+$caption-2-font-size: 11px;
+$caption-2-line-height: 16px;
+
+$font-weight-base: 400;
+$font-weight-bold: 500;
+
+// typography variables: line-height, font-size, font-weight
+// prettier-ignore
+$typography-data: (
+  large-title-regular: $large-title-line-height $large-title-font-size $font-weight-base,
+  large-title-medium:  $large-title-line-height $large-title-font-size $font-weight-bold,
+  title-1-regular:     $title-1-line-height     $title-1-font-size     $font-weight-base,
+  title-1-medium:      $title-1-line-height     $title-1-font-size     $font-weight-bold,
+  title-2-regular:     $title-2-line-height     $title-2-font-size     $font-weight-base,
+  title-2-medium:      $title-2-line-height     $title-2-font-size     $font-weight-bold,
+  title-3-regular:     $title-3-line-height     $title-3-font-size     $font-weight-base,
+  title-3-medium:      $title-3-line-height     $title-3-font-size     $font-weight-bold,
+  headline-regular:    $headline-line-height    $headline-font-size    $font-weight-bold,
+  body-regular:        $body-line-height        $body-font-size        $font-weight-base,
+  body-medium:         $body-line-height        $body-font-size        $font-weight-bold,
+  callout-regular:     $callout-line-height     $callout-font-size     $font-weight-base,
+  callout-medium:      $callout-line-height     $callout-font-size     $font-weight-bold,
+  subheadline-regular: $subheadline-line-height $subheadline-font-size $font-weight-base,
+  subheadline-medium:  $subheadline-line-height $subheadline-font-size $font-weight-bold,
+  footnote-regular:    $footnote-line-height    $footnote-font-size    $font-weight-base,
+  footnote-medium:     $footnote-line-height    $footnote-font-size    $font-weight-bold,
+  caption-1-regular:   $caption-1-line-height   $caption-1-font-size   $font-weight-base,
+  caption-1-medium:    $caption-1-line-height   $caption-1-font-size   $font-weight-bold,
+  caption-2-regular:   $caption-2-line-height   $caption-2-font-size   $font-weight-base,
+  caption-2-medium:    $caption-2-line-height   $caption-2-font-size   $font-weight-bold,
+);
+
+@mixin make-typography-style($key) {
+  @if map.has-key($typography-data, $key) {
+    $list: map.get($typography-data, $key);
+    $line-height: list.nth($list, 1);
+    $font-size: list.nth($list, 2);
+    $font-weight: list.nth($list, 3);
+
+    line-height: calc($line-height / $font-size);
+    font-size: px2rpx($font-size);
+    font-weight: $font-weight;
+  } @else {
+    @error "属性 #{$key} 不存在于 $typography-data 对象中。";
+  }
+}
+
+//=== mixin ===//
+
+@mixin large-title-regular {
+  @include make-typography-style('large-title-regular');
+}
+@mixin large-title-medium {
+  @include make-typography-style('large-title-medium');
+}
+@mixin title-1-regular {
+  @include make-typography-style('title-1-regular');
+}
+@mixin title-1-medium {
+  @include make-typography-style('title-1-medium');
+}
+@mixin title-2-regular {
+  @include make-typography-style('title-2-regular');
+}
+@mixin title-2-medium {
+  @include make-typography-style('title-2-medium');
+}
+@mixin title-3-regular {
+  @include make-typography-style('title-3-regular');
+}
+@mixin title-3-medium {
+  @include make-typography-style('title-3-medium');
+}
+@mixin headline-regular {
+  @include make-typography-style('headline-regular');
+}
+@mixin body-regular {
+  @include make-typography-style('body-regular');
+}
+@mixin body-medium {
+  @include make-typography-style('body-medium');
+}
+@mixin callout-regular {
+  @include make-typography-style('callout-regular');
+}
+@mixin callout-medium {
+  @include make-typography-style('callout-medium');
+}
+@mixin subheadline-regular {
+  @include make-typography-style('subheadline-regular');
+}
+@mixin subheadline-medium {
+  @include make-typography-style('subheadline-medium');
+}
+@mixin footnote-regular {
+  @include make-typography-style('footnote-regular');
+}
+@mixin footnote-medium {
+  @include make-typography-style('footnote-medium');
+}
+@mixin caption-1-regular {
+  @include make-typography-style('caption-1-regular');
+}
+@mixin caption-1-medium {
+  @include make-typography-style('caption-1-medium');
+}
+@mixin caption-2-regular {
+  @include make-typography-style('caption-2-regular');
+}
+@mixin caption-2-medium {
+  @include make-typography-style('caption-2-medium');
+}

@@ -1,0 +1,7 @@
+.everyday-task-select-date {
+  ::v-deep {
+    .uni-popup {
+      z-index: 1000 !important;
+    }
+  }
+}

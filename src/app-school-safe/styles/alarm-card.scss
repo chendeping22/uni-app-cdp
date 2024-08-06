@@ -1,0 +1,44 @@
+.common-card {
+  width: 100%;
+  background: $ui-color-white;
+  box-shadow: 0rpx 0rpx 20rpx 0rpx rgba(24, 25, 68, 0.05);
+  border-radius: $radius-base;
+  padding: $ui-gap-large;
+  box-sizing: border-box;
+  margin-top: $ui-gap-default;
+}
+.common-title {
+  display: block;
+  font-size: $ui-font-size-title;
+  color: $ui-color-base;
+  letter-spacing: 0;
+  line-height: 30rpx;
+  font-weight: 600;
+  margin-bottom: $ui-gap-default;
+}
+.common-item {
+  display: flex;
+  .common-label {
+    display: inline-block;
+    width: 120rpx;
+    font-size: $ui-font-size-title;
+    color: $ui-color-placeholder;
+    letter-spacing: 0;
+    line-height: 56rpx;
+    white-space: nowrap;
+  }
+  .common-value {
+    font-size: $ui-font-size-title;
+    color: $ui-color-base;
+    letter-spacing: 0;
+    line-height: 56rpx;
+    margin-left: $ui-gap-large;
+    word-break: break-all;
+  }
+  .common-tag {
+    height: 48rpx;
+    background: $ui-color-fill-default;
+    border-radius: 24rpx;
+    padding: 0 $ui-gap-small;
+  }
+}

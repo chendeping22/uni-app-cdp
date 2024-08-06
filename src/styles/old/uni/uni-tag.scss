@@ -1,0 +1,51 @@
+/* #ifdef MP-WEIXIN*/
+uni-tag {
+  .uni-tag.uni-tag--default {
+    display: inline-block;
+    width: 217rpx;
+    height: 72rpx;
+    line-height: 72rpx;
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    font-size: $ui-font-size-title;
+    padding: unset;
+    background-color: $ui-color-primary;
+    border-color: $ui-color-primary;
+  }
+
+  .uni-tag.uni-tag--default--inverted {
+    color: $ui-color-base;
+    border-color: $ui-color-line-default;
+    background-color: $ui-color-white;
+  }
+
+  .uni-tag.uni-tag--circle {
+    border-radius: 90rpx !important;
+  }
+}
+/* #endif */
+
+/* #ifdef APP-PLUS*/
+uni-text.uni-tag.uni-tag--default {
+  display: inline-block;
+  width: 216rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+  text-align: center;
+  font-family: PingFangSC-Regular;
+  font-size: $ui-font-size-title;
+  padding: unset;
+  background-color: $ui-color-primary;
+  border-color: $ui-color-primary;
+}
+
+uni-text.uni-tag.uni-tag--default--inverted {
+  color: $ui-color-base;
+  border-color: $ui-color-line-default;
+  background-color: $ui-color-white;
+}
+
+uni-text.uni-tag.uni-tag--circle {
+  border-radius: 90rpx !important;
+}
+/* #endif */

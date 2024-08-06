@@ -1,0 +1,240 @@
+//=== core colors ===//
+$color-text-base: #000000 !default;
+$color-text-inverse: #ffffff !default;
+$color-background-base: #ffffff !default;
+$color-primary: #1677ff !default;
+$color-error: #ff4d4f !default;
+$color-warning: #faad14 !default;
+$color-success: #52c41a !default;
+$color-info: #1677ff !default;
+
+// Dust Red
+$red-01: #fff1f0 !default;
+$red-02: #ffccc7 !default;
+$red-03: #ffa39e !default;
+$red-04: #ff7875 !default;
+$red-05: #ff4d4f !default;
+$red-06: #f5222d !default;
+$red-07: #cf1322 !default;
+$red-08: #a8071a !default;
+$red-09: #820014 !default;
+$red-10: #5c0011 !default;
+
+// Volcano
+$volcano-01: #fff2e8 !default;
+$volcano-02: #ffd8bf !default;
+$volcano-03: #ffbb96 !default;
+$volcano-04: #ff9c6e !default;
+$volcano-05: #ff7a45 !default;
+$volcano-06: #fa541c !default;
+$volcano-07: #d4380d !default;
+$volcano-08: #ad2102 !default;
+$volcano-09: #871400 !default;
+$volcano-10: #610b00 !default;
+
+// Sunset Orange
+$orange-01: #fff7e6 !default;
+$orange-02: #ffe7ba !default;
+$orange-03: #ffd591 !default;
+$orange-04: #ffc069 !default;
+$orange-05: #ffa940 !default;
+$orange-06: #fa8c16 !default;
+$orange-07: #d46b08 !default;
+$orange-08: #ad4e00 !default;
+$orange-09: #873800 !default;
+$orange-10: #612500 !default;
+
+// Calendula Gold
+$gold-01: #fffbe6 !default;
+$gold-02: #fff1b8 !default;
+$gold-03: #ffe58f !default;
+$gold-04: #ffd666 !default;
+$gold-05: #ffc53d !default;
+$gold-06: #faad14 !default;
+$gold-07: #d48806 !default;
+$gold-08: #ad6800 !default;
+$gold-09: #874d00 !default;
+$gold-10: #613400 !default;
+
+// Sunrise Yellow
+$yellow-01: #feffe6 !default;
+$yellow-02: #ffffb8 !default;
+$yellow-03: #fffb8f !default;
+$yellow-04: #fff566 !default;
+$yellow-05: #ffec3d !default;
+$yellow-06: #fadb14 !default;
+$yellow-07: #d4b106 !default;
+$yellow-08: #ad8b00 !default;
+$yellow-09: #876800 !default;
+$yellow-10: #614700 !default;
+
+// Lime
+$lime-01: #fcffe6 !default;
+$lime-02: #f4ffb8 !default;
+$lime-03: #eaff8f !default;
+$lime-04: #d3f261 !default;
+$lime-05: #bae637 !default;
+$lime-06: #a0d911 !default;
+$lime-07: #7cb305 !default;
+$lime-08: #5b8c00 !default;
+$lime-09: #3f6600 !default;
+$lime-10: #254000 !default;
+
+// Polar Green
+$green-01: #f6ffed !default;
+$green-02: #d9f7be !default;
+$green-03: #b7eb8f !default;
+$green-04: #95de64 !default;
+$green-05: #73d13d !default;
+$green-06: #52c41a !default;
+$green-07: #389e0d !default;
+$green-08: #237804 !default;
+$green-09: #135200 !default;
+$green-10: #092b00 !default;
+
+// Cyan
+$cyan-01: #e6fffb !default;
+$cyan-02: #b5f5ec !default;
+$cyan-03: #87e8de !default;
+$cyan-04: #5cdbd3 !default;
+$cyan-05: #36cfc9 !default;
+$cyan-06: #13c2c2 !default;
+$cyan-07: #08979c !default;
+$cyan-08: #006d75 !default;
+$cyan-09: #00474f !default;
+$cyan-10: #002329 !default;
+
+// Daybreak Blue
+$blue-01: #e6f4ff !default;
+$blue-02: #bae0ff !default;
+$blue-03: #91caff !default;
+$blue-04: #69b1ff !default;
+$blue-05: #4096ff !default;
+$blue-06: #1677ff !default;
+$blue-07: #0958d9 !default;
+$blue-08: #003eb3 !default;
+$blue-09: #002c8c !default;
+$blue-10: #001d66 !default;
+
+// Geek Blue
+$geekblue-01: #f0f5ff !default;
+$geekblue-02: #d6e4ff !default;
+$geekblue-03: #adc6ff !default;
+$geekblue-04: #85a5ff !default;
+$geekblue-05: #597ef7 !default;
+$geekblue-06: #2f54eb !default;
+$geekblue-07: #1d39c4 !default;
+$geekblue-08: #10239e !default;
+$geekblue-09: #061178 !default;
+$geekblue-10: #030852 !default;
+
+// Golden Purple
+$purple-01: #f9f0ff !default;
+$purple-02: #efdbff !default;
+$purple-03: #d3adf7 !default;
+$purple-04: #b37feb !default;
+$purple-05: #9254de !default;
+$purple-06: #722ed1 !default;
+$purple-07: #531dab !default;
+$purple-08: #391085 !default;
+$purple-09: #22075e !default;
+$purple-10: #120338 !default;
+
+// Magenta
+$magenta-01: #fff0f6 !default;
+$magenta-02: #ffd6e7 !default;
+$magenta-03: #ffadd2 !default;
+$magenta-04: #ff85c0 !default;
+$magenta-05: #f759ab !default;
+$magenta-06: #eb2f96 !default;
+$magenta-07: #c41d7f !default;
+$magenta-08: #9e1068 !default;
+$magenta-09: #780650 !default;
+$magenta-10: #520339 !default;
+//=== core colors ===//
+
+//=== theme colors ===//
+// Primary
+$primary-bg: #e6f4ff !default;
+$primary-bg-hover: #bae0ff !default;
+$primary-border: #91caff !default;
+$primary-border-hover: #69b1ff !default;
+$primary-hover: #4096ff !default;
+$primary-base: $color-primary !default;
+$primary-active: #0958d9 !default;
+$primary-text-hover: #003eb3 !default;
+$primary-text: #002c8c !default;
+$primary-text-active: #001d66 !default;
+
+// Success
+$success-bg: #f6ffed !default;
+$success-bg-hover: #d9f7be !default;
+$success-border: #b7eb8f !default;
+$success-border-hover: #95de64 !default;
+$success-hover: #73d13d !default;
+$success-base: $color-success !default;
+$success-active: #389e0d !default;
+$success-text-hover: #237804 !default;
+$success-text: #135200 !default;
+$success-text-active: #092b00 !default;
+
+// Warning
+$warning-bg: #fffbe6 !default;
+$warning-bg-hover: #fff1b8 !default;
+$warning-border: #ffe58f !default;
+$warning-border-hover: #ffd666 !default;
+$warning-hover: #ffc53d !default;
+$warning-base: $color-warning !default;
+$warning-active: #d48806 !default;
+$warning-text-hover: #ad6800 !default;
+$warning-text: #874d00 !default;
+$warning-text-active: #613400 !default;
+
+// Error
+$error-bg: #fff1f0 !default;
+$error-bg-hover: #ffccc7 !default;
+$error-border: #ffa39e !default;
+$error-border-hover: #ff7875 !default;
+$error-hover: #ff7875 !default;
+$error-base: $color-error !default;
+$error-active: #cf1322 !default;
+$error-text-hover: #a8071a !default;
+$error-text: #820014 !default;
+$error-text-active: #5c0011 !default;
+
+// Info
+$info-bg: #e6f4ff !default;
+$info-bg-hover: #bae0ff !default;
+$info-border: #91caff !default;
+$info-border-hover: #69b1ff !default;
+$info-hover: #4096ff !default;
+$info-base: $color-info !default;
+$info-active: #0958d9 !default;
+$info-text-hover: #003eb3 !default;
+$info-text: #002c8c !default;
+$info-text-active: #001d66 !default;
+
+// Text & icons
+$color-text: #000000e0 !default;
+$color-text-heading: #000000e0 !default;
+$color-text-description: #00000073 !default;
+$color-text-placeholder: #00000073 !default;
+$color-text-label: #000000a6 !default;
+$color-text-disabled: #00000040 !default;
+$color-icon: #00000073 !default;
+$color-icon-hover: #000000e0 !default;
+
+// Backgrounds
+$color-bg-container: #ffffff !default;
+$color-bg-container-disabled: #0000000a !default;
+$color-bg-layout: #f5f5f5 !default;
+$color-bg-elevated: #ffffff !default;
+$control-item-bg-hover: #0000000a !default;
+$control-item-bg-active: #e6f4ff !default;
+$control-item-bg-active-hover: #bae0ff !default;
+
+// Borders & Dividers
+$color-border: #00000026 !default;
+$color-border-secondary: #0000000f !default;
+$color-split: #0000000f !default;
+//=== theme colors ===//

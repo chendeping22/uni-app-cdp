@@ -1,0 +1,41 @@
+/**
+ * @Author      : zouwq
+ * @Date        : 2022-07-26
+ * @Description : 此文件为项目的主题变量，这些变量目前只能通过uni.scss引入才有效，
+ *                由于uni.scss中引入的样式会同时混入到全局样式文件和单独每一个页面的样式中，
+ *                造成微信程序包太大，故uni.scss只建议放scss变量名相关样式，
+ *                其他的样式可以通过main.js或者App.vue引入
+*/
+@import '@/styles/theme/css-theme.scss';
+
+// 主颜色
+$zy-main-color: $ui-color-primary;
+$zy-bg-color: $ui-color-page-primary;
+
+// 辅助色
+$zy-spare-color3: #e8f3ff;
+$zy-spare-color4: #f7ba1e;
+$zy-spare-color5: #00b42a;
+$zy-spare-color6: #fe7c00;
+$zy-spare-color7: #f53f3f;
+
+// 中性色
+$zy-middle-color1: #000;
+$zy-middle-color2: #fff;
+$zy-middle-color3: #1d2129;
+$zy-middle-color4: #4e5969;
+$zy-middle-color5: #86909c;
+$zy-middle-color6: #c9cdd4;
+$zy-middle-color7: #f2f3f4;
+$zy-middle-color8: #e5e6ec;
+
+// 字体大小
+$zy-font-size24: 24rpx;
+$zy-font-size28: 28rpx;
+$zy-font-size30: 30rpx;
+$zy-font-size32: 32rpx;
+$zy-font-size34: 34rpx;
+$zy-font-size36: 36rpx;
+$zy-font-size38: 38rpx;
+$zy-font-size40: 40rpx;
+$zy-font-size44: 44rpx;
